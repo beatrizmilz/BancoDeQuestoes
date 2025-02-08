@@ -20,10 +20,10 @@ chat <- ellmer::chat_openai(
   system_prompt = prompt
 )
 
-texto <- paginas_validas[1] |> 
+texto <- paginas_validas[1] |>
   stringr::str_c(collapse = "\n")
 
-# Rodar para cada batch de páginas. 
+# Rodar para cada batch de páginas.
 # Pode usar purrr::map(). Tratar erros
 result <- chat$extract_data(
   texto,
@@ -44,12 +44,12 @@ result <- chat$extract_data(
     alternativa_c = ellmer::type_string("Texto da Alternativa C."),
     alternativa_d = ellmer::type_string("Texto da Alternativa D."),
     alternativa_e = ellmer::type_string("Texto da Alternativa E."),
-    alternativa_correta = ellmer::type_string("Alternativa correta.")
+    alternativa_correta = ellmer::type_enum("Alternativa correta.", letters[1:5])
   )
 )
 
 jsonlite::write_json(
-  result, 
+  result,
   "data-raw/questoes/fuvest/2025/01.json",
   auto_unbox = TRUE,
   pretty = TRUE
