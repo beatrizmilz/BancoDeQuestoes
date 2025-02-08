@@ -1,3 +1,4 @@
+# Código por @jtrecenti
 library(ellmer)
 
 # link <- "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf"
