@@ -3,9 +3,11 @@ library(ellmer)
 # link <- "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf"
 # txt_prova_2025 <- pdftools::pdf_text(link)
 
+
+
 ## precisei transformar usando `pdftotext` pois o `pdftools` está crashando aqui
 paginas <- readr::read_file(
-  "data-raw/fuvest2025_primeira_fase_prova_V1.txt",
+  "data-raw/questoes/fuvest/2025/fuvest2025_primeira_fase_prova_V1.txt",
   locale = readr::locale(encoding = "latin1")
 ) |>
   stringr::str_split("\f") |>
@@ -13,7 +15,7 @@ paginas <- readr::read_file(
 
 paginas_validas <- paginas[2:33]
 
-prompt <- readr::read_file("data-raw/prompts/prompt.md")
+prompt <- readr::read_file("data-raw/prompts/prompt_multipla_escolha.md")
 
 chat <- ellmer::chat_openai(
   model = "gpt-4o-mini",
