@@ -1,4 +1,4 @@
-gerar_arquivo_questao_por_pagina <- function(path = "/Users/beatrizmilz/Documents/GitHub/banco-de-questoes/data-raw/questoes/fuvest/2025/prova_pagina-10.txt") {
+gerar_arquivo_questao_por_pagina <- function(path) {
 
   texto_por_questao <- readr::read_lines(path)
 
