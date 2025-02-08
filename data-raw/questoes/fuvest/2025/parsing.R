@@ -12,15 +12,19 @@ numero_de_paginas <- pdftools::pdf_length(arquivo)
 
 # As páginas de 2 colunas são as que não estão nas páginas de 1 coluna.
 paginas_2_colunas <- c(2:numero_de_paginas) |>
-  purrr::discard( ~ .x %in% paginas_1_coluna)
+  purrr::discard(~ .x %in% paginas_1_coluna)
 
 # Transformar as páginas de 2 colunas em texto.
-purrr::map(paginas_2_colunas,
-           ~ transformar_pagina_pdf_2_colunas_em_txt(arquivo, page = .x))
+purrr::map(
+  paginas_2_colunas,
+  ~ transformar_pagina_pdf_2_colunas_em_txt(arquivo, page = .x)
+)
 
 # Transformar as páginas de 1 coluna em texto.
-purrr::map(paginas_1_coluna,
-           ~ transformar_pagina_pdf_1_colunas_em_txt(arquivo, page = .x))
+purrr::map(
+  paginas_1_coluna,
+  ~ transformar_pagina_pdf_1_colunas_em_txt(arquivo, page = .x)
+)
 
 
 # ler arquivos txt:
@@ -30,6 +34,4 @@ arquivos_txt <- tibble::tibble(arquivos = as.character(fs::dir_ls(pasta))) |>
     stringr::str_detect(arquivos, pattern = "_pagina-")
   )
 
-exemplo <- arquivos_txt[1,1]
-
-
+exemplo <- arquivos_txt[1, 1]

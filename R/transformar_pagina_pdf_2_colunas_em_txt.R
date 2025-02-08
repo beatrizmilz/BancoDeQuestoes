@@ -49,7 +49,6 @@ transformar_pagina_pdf_2_colunas_em_txt <- function(path, page) {
 
   # Retorna o conteúdo
   return(conteudo_pagina)
-
 }
 
 # transformar_pagina_pdf_2_colunas_em_txt("data-raw/questoes/fuvest/2025/prova.pdf", page = 3)

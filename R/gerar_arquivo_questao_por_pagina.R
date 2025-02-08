@@ -1,5 +1,4 @@
 gerar_arquivo_questao_por_pagina <- function(path) {
-
   texto_por_questao <- readr::read_lines(path)
 
   prova_ano <- dirname(path) |>
@@ -23,5 +22,4 @@ gerar_arquivo_questao_por_pagina <- function(path) {
     dplyr::group_split(questao)
 
   purrr::map(df_questao, gerar_arquivo_questao_multipla_escolha)
-
 }
