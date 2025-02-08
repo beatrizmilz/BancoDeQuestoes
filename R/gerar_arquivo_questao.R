@@ -1,11 +1,12 @@
 gerar_arquivo_questao_multipla_escolha <- function(df_texto){
-
 prompt <- readr::read_file("data-raw/prompts/prompt_multipla_escolha.md")
 
 chat <- ellmer::chat_openai(
   model = "gpt-4o-mini",
   system_prompt = prompt
 )
+
+usethis::ui_info("Iniciando extração de dados da questão: {stringr::str_to_upper(df_texto$prova)}/{df_texto$ano}/Questão {df_texto$questao}...")
 
 
 result <- chat$extract_data(
@@ -38,5 +39,7 @@ jsonlite::write_json(
   auto_unbox = TRUE,
   pretty = TRUE
 )
+
+usethis::ui_done("Extração de dados da questão {stringr::str_to_upper(df_texto$prova)}/{df_texto$ano}/{df_texto$questao} finalizada!")
 
 }
