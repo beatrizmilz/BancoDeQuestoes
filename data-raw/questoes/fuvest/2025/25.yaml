@@ -1,0 +1,18 @@
+id: 'fuvest-2025-25'
+vestibular: 'FUVEST'
+ano: 2025
+prova: v1
+questao_tipo: 'multipla_escolha'
+questao_numero: '25'
+imagem: no
+area: 'Geografia'
+temas: 'Cartografia; Escala de Mapas; Medição de Distâncias'
+texto_questao: '“Historiadores encontraram um mapa antigo onde não era possível identificar a escala do mapa. Com algum esforço e apoio de Geógrafos, foi possível avaliar a distância no mapa entre duas localidades como sendo de 20 centímetros. Buscando elementos na paisagem, foi possível quantificar a distância entre elas como equivalente a 40 quilômetros.”
+<br>FITZ, Paulo Roberto. Cartografia Básica. São Paulo: Oficina de Textos, 2008 (Adaptado).<br><br>
+Com base nessas medidas, a escala numérica do mapa corresponde a:'
+alternativa_A: '1:20.000'
+alternativa_B: '1:200.000'
+alternativa_C: '1:2.000.000'
+alternativa_D: '1:2.200.000'
+alternativa_E: '1:20.000.000'
+alternativa_correta: 'B'
