@@ -15,6 +15,9 @@ Para o campo `disciplina`, as disciplinas são: "Biologia", "Inglês", "Física"
 Caso a questão seja interdisciplinar, o campo `disciplina` deve ser preenchido com as disciplinas separadas por `;`.
 
 
+IMPORTANTE: Algumas questões apresentam textos após as alternativas, como por exemplo "Note e adote: ...". Isso deve ser considerado parte do enunciado, e adicionado ao final do texto da questão.
+
+
 Exemplo de saída:
 
 ```json
