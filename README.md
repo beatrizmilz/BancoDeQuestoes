@@ -49,7 +49,7 @@ Você também pode consultar os sites oficiais dos vestibulares para acessar as 
 
 ## Como contribuir
 
-Uma forma de contribuir é ajudando a [validar as questões](https://github.com/beatrizmilz/BancoDeQuestoes/tree/main/data-raw/questoes/fuvest/2025) que já foram extraídas (arquivos `.json` que estão com a informação  `"validado": false`).
+Uma forma de contribuir é ajudando a [validar as questões](https://github.com/beatrizmilz/BancoDeQuestoes/tree/main/data-raw/questoes/fuvest/2025) que já foram extraídas (arquivos `.json` que estão com a informação  `"validado": false`). O arquivo [`data-raw/questoes_para_validar.csv`](https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes_para_validar.csv) apresenta uma lista de questões que precisam ser validadas.
 
 ## Autoria
 
