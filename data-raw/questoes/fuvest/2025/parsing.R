@@ -5,7 +5,9 @@ devtools::load_all()
 arquivo <- here::here("data-raw/questoes/fuvest/2025/prova.pdf")
 pasta <- dirname(arquivo)
 
-# Tentar: extrair imagens do PDF, vai facilitar a vida
+# Extrair imagens do PDF
+
+# extrair_imagens_pdf(arquivo)
 
 
 # Parte  1 - Transformar PDF em txt
