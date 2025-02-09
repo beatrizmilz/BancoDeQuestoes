@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-67",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 67,
+  "imagem_1": "67.png",
+  "imagem_2": null,
+  "disciplina": "Biologia",
+  "temas": "Células-tronco; Células especializadas",
+  "texto_questao": "Pesquisas e terapias com células-tronco têm se mostrado cada\nvez mais promissoras pela possibilidade de seu uso no\ntreatment de diferentes tipos de doenças, como câncer e\ndoenças degenerativas. As células-tronco podem se diferenciar\nem células especializadas, conforme exemplificado a seguir.\n\nDisponível em https://upload.wikimedia.org/wikipedia/ (Adaptado).\n\nAs células especializadas que derivam de uma mesma célula-\ntronco possuem os(as) mesmos(as)",
+  "alternativa_a": "genes.",
+  "alternativa_b": "RNAs.",
+  "alternativa_c": "proteínas.",
+  "alternativa_d": "lipídeos.",
+  "alternativa_e": "organelas.",
+  "alternativa_correta": "a"
+}

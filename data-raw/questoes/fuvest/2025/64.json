@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-64",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 64,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Química",
+  "temas": "Combustão; Densidade; Reações Químicas",
+  "texto_questao": "Alguns motores de foguetes espaciais usam metano como\ncombustível e oxigênio como comburente. Ambos os\ncompostos são armazenados em estado líquido no próprio\nfoguete, o que permite o seu armazenamento em maior\nquantidade do que se estivessem no estado gasoso. Sabe-se\nque o foguete armazena um volume de oxigênio líquido\n1,5 vez maior do que de metano líquido e que ambos são\ncompletamente consumidos na combustão, conforme a\neqüação CH4(l) + 2 O2(l) → CO2(g) + 2 H2O(g).\nNessas condições, é correto afirmar que a razão entre a\ndensidade do metano líquido e a densidade do oxigênio\nlíquido é igual a",
+  "alternativa_a": "0,186.",
+  "alternativa_b": "0,375.",
+  "alternativa_c": "0,75.",
+  "alternativa_d": "1,5.",
+  "alternativa_e": "3.",
+  "alternativa_correta": "b"
+}

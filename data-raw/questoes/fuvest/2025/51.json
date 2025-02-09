@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-51",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 51,
+  "imagem_1": "51.png",
+  "imagem_2": null,
+  "disciplina": "Geografia",
+  "temas": "Variação espacial da temperatura; Uso e ocupação do solo; Urbanização",
+  "texto_questao": "A figura a seguir representa a variação espacial da temperatura do ar por tipo de área, considerando diferentes padrões de uso e ocupação do solo de um município. \n \n Revista Pesquisa FAPESP – Setembro/2023 (Adaptado). \n A explicação para as características desse perfil de temperatura do ar deve-se",
+  "alternativa_a": "à maior ocorrência de áreas verdes nas periferias, que absorvem mais radiação solar e aquecem o ambiente, ultrapassando os 32 °C.",
+  "alternativa_b": "à maior absorção de radiação solar nas áreas centrais das cidades, compostas em sua maioria por asfalto, vidro e concreto.",
+  "alternativa_c": "ao efeito de sombreamento dos edifícios nas áreas centrais, com maior disponibilidade de radiação solar e temperaturas inferiores a 30 °C.",
+  "alternativa_d": "à presença de áreas comerciais e residenciais ao longo de todo perfil, que elevam a temperatura acima dos 32 °C e reduzem a umidade.",
+  "alternativa_e": "à maior reflexão da radiação solar nas áreas centrais pelo asfalto, por apresentarem albedo menor que as superfícies vegetadas.",
+  "alternativa_correta": "b"
+}

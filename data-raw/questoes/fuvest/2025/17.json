@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-17",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 17,
+  "imagem_1": "17.png",
+  "imagem_2": null,
+  "disciplina": "Matemática",
+  "temas": "Geometria; Distância entre pontos",
+  "texto_questao": "A imagem a seguir mostra um cruzamento da Rua da Consolação, na região central da cidade de São Paulo, em que há faixas de pedestre em diferentes direções. Essas faixas agilizam a travessia das ruas. Uma pessoa parte do ponto O e deseja chegar ao ponto C. Para tanto, percorre o trajeto pela faixa que liga O a B e, em seguida, utiliza a faixa que liga B a C. Considere que as coordenadas dos pontos indicados na figura, em metros, são: O(0,0), B(13,-15) e C(29,-8). \n \n Seja 𝑑 a distância, em metros, que essa pessoa deixaria de percorrer se tivesse optado por fazer a travessia pela faixa de pedestre que liga O a C. Nesse contexto, é correto afirmar:",
+  "alternativa_a": "𝑑     2",
+  "alternativa_b": "2     𝑑 5",
+  "alternativa_c": "5     𝑑 8",
+  "alternativa_d": "8     𝑑 11",
+  "alternativa_e": "11     𝑑",
+  "alternativa_correta": "e"
+}

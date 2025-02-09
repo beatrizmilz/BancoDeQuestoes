@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-16",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 16,
+  "imagem_1": "16.png",
+  "imagem_2": null,
+  "disciplina": "Educação Física",
+  "temas": "Acessibilidade; Normas de acessibilidade",
+  "texto_questao": "A construção de uma rampa que seja acessível a usuários de cadeira de rodas deve seguir a norma ABNT NBR 9050. Esse documento regulamenta a inclinação que a rampa deve ter a depender do desnível máximo de cada segmento de rampa,\nconforme o seguinte quadro:\n      Inclinação e desnível máximo de cada segmento de rampa\n      Desnível h (em m)            Inclinação i admissível (em %)\n          1     ℎ       1,5                            5\n          0,8       ℎ    1                   5     𝑖       6,25\n          0     ℎ       0,8                6,25        𝑖    8,33\n    Acessibilidade a edificações, mobiliário, espaços e equipamentos urbanos.\n        Disponível em https://www.prefeitura.sp.gov.br/cidade/ (Adaptado).\nA inclinação 𝑖 da rampa em porcentagem (%) é calculada dividindo a altura ℎ do desnível do segmento da rampa, em metros, pelo comprimento da projeção horizontal 𝑐, em metros, e multiplicando o resultado por 100. A figura a seguir mostra uma rampa de dois segmentos.\nDeterminada rampa de dois segmentos foi construída da seguinte maneira:\n- o primeiro segmento possui projeção horizontal de 10 m e inclinação de 6%;\n- o segundo segmento possui projeção horizontal de 7 m e desnível de 0,5 m.\nCom base no que foi apresentado sobre a normativa, o que é correto afirmar sobre a adequação dessa rampa à norma de acessibilidade?",
+  "alternativa_a": "A rampa não está adequada, pois os dois segmentos não estão de acordo com a norma.",
+  "alternativa_b": "A rampa está adequada, pois os dois segmentos estão de acordo com a norma.",
+  "alternativa_c": "A rampa não está adequada, pois o primeiro segmento não está de acordo com a norma.",
+  "alternativa_d": "A rampa não está adequada, pois o segundo segmento não está de acordo com a norma.",
+  "alternativa_e": "A rampa está adequada, pois, apesar de o segundo segmento não estar de acordo com a norma, o primeiro está.",
+  "alternativa_correta": "c"
+}

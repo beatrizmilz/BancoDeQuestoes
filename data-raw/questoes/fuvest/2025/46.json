@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-46",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 46,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Biologia",
+  "temas": "Sementes; Alimentos e nutrição",
+  "texto_questao": "A maior parte da alimentação humana é constituída por grãos\ne cereais, que, em sua maioria, correspondem às sementes, em\ntermos botânicos. Esse consumo é adequado, uma vez que as\nsementes",
+  "alternativa_a": "constituem o único órgão de reserva de amido das plantas,\n    substância altamente energética para os seres vivos em\n    geral.",
+  "alternativa_b": "armazenam todas as vitaminas e nutrientes necessários\n    para a planta e, portanto, também ao ser humano.",
+  "alternativa_c": "possuem DNA da planta-mãe e do embrião, que constituem\n    nutrientes sem os quais a espécie humana não sobrevive.",
+  "alternativa_d": "contêm substâncias de reserva provedoras de energia para\no desenvolvimento do embrião vegetal, que também\n    servem de fonte energética aos seres humanos.",
+  "alternativa_e": "possuem enzimas digestivas de amido e de proteínas, que\ndisponibilizam energia ao embrião vegetal e também são\n    usadas para promover a digestão em seres humanos.",
+  "alternativa_correta": "d"
+}

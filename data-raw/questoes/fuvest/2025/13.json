@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-13",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 13,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "História",
+  "temas": "Colonização ibérica; Colonização inglesa; Processos coloniais",
+  "texto_questao": "As formas de colonização ibérica e inglesa na América foram,\ndurante muito tempo, consideradas processos isolados,\nestruturados em dois modelos opostos: as colônias de\nexploração e as de povoamento, respectivamente. No\ntanto, elas constituíram um emaranhado de experiências\ncompartilhadas pelos impérios atlânticos. Os aspectos\ncomuns a essas formas de colonização foram",
+  "alternativa_a": "partida dos colonizadores da metrópole, da qual saíram\n    por fatores religiosos, e a adoção do trabalho livre como\n    base da produção.",
+  "alternativa_b": "dominação e a exploração dos povos originários e o\n    emprego sistemático do trabalho forçado dessas\n    populações.",
+  "alternativa_c": "introdução de colonos sem interesse na ocupação\ndemográfica e o objetivo exclusivo da extração de riquezas\n    minerais.",
+  "alternativa_d": "produção local organizada em pequenas propriedades e a\n    utilização primordial da força de trabalho familiar.",
+  "alternativa_e": "falta de interesse metropolitano pela exploração comercial\n    e a inexistência de benefícios financeiros para a metrópole.",
+  "alternativa_correta": "b"
+}

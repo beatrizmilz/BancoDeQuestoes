@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-69",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 69,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Matemática",
+  "temas": "",
+  "texto_questao": "No plano cartesiano 𝑂𝑥𝑦, o gráfico que melhor representa a função 𝑓(𝑥) = |𝑥² - 5𝑥 + 6| é dado por",
+  "alternativa_a": "(A)",
+  "alternativa_b": "(B)",
+  "alternativa_c": "(C)",
+  "alternativa_d": "(D)",
+  "alternativa_e": "(E)",
+  "alternativa_correta": "a"
+}

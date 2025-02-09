@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-57",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 57,
+  "imagem_1": "57.png",
+  "imagem_2": null,
+  "disciplina": "Química",
+  "temas": "Solubilidade; Reações exotérmicas e endotérmicas",
+  "texto_questao": "Em países frios, é comum o uso de pequenos aquecedores de mãos, normalmente descartáveis, que podem ser colocados dentro de luvas. Uma alternativa mais sustentável é o aquecedor de mão reutilizável, que é constituído por uma solução aquosa supersaturada de acetato de sódio armazenada em um reservatório maleável, conforme mostrado na figura a seguir. \n <IMAGEM>. Um choque mecânico nesse reservatório perturba a solução supersaturada e leva à precipitação do sal, resultando no seu aquecimento. Após o uso, o aquecedor pode ser regenerado por imersão em água quente, que dissolve o sal, deixando-o pronto para ser reutilizado. Em relação à operação desse aquecedor, é correto afirmar:",
+  "alternativa_a": "A precipitação do acetato de sódio é exotérmica e sua solubilização é endotérmica.",
+  "alternativa_b": "A diminuição da temperatura aumenta a solubilidade do acetato de sódio.",
+  "alternativa_c": "A solubilização do acetato de sódio para a regeneração do aquecedor libera energia, aquecendo o banho de água.",
+  "alternativa_d": "Quando o aquecedor é regenerado, a solução interna passa de supersaturada para uma solução diluída.",
+  "alternativa_e": "A concentração de acetato de sódio na solução dentro do reservatório não muda durante a regeneração do aquecedor.",
+  "alternativa_correta": "a"
+}

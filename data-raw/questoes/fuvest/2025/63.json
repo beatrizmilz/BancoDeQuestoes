@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-63",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 63,
+  "imagem_1": "63.png",
+  "imagem_2": null,
+  "disciplina": "Química",
+  "temas": "Matrizes energéticas limpas; Alterações climáticas; Gases de efeito estufa",
+  "texto_questao": "A utilização de matrizes energéticas limpas, tais como aquelas que não aumentam a concentração de CO2(g) na atmosfera, é essencial para evitar a escalada das alterações climáticas causadas pela emissão de gases de efeito estufa. Considere a proposta apresentada na figura a seguir para a produção de uma matriz energética limpa.\n\n(I) Capturar o CO2(g) atmosférico utilizando NaOH(aq) para formar Na2CO3(aq). (II) Tratar essa solução, na presença de um catalisador, com H2(g) oriundo de fontes renováveis, para gerar CH4(g), um gás combustível.\nCom base nessas informações e em seus conhecimentos, assinale a alternativa correta.",
+  "alternativa_a": "O catalisador participa da reação de produção de metano e se decompõe em NaOH.",
+  "alternativa_b": "A combustão do CH4 não emite CO2, motivo pelo qual a proposta se configura como uma matriz energética limpa.",
+  "alternativa_c": "A proposta não representa uma matriz energética limpa, pois a combustão completa de 1 mol de CH4 emite mais CO2 do que o que é utilizado para a sua síntese.",
+  "alternativa_d": "A retirada de CO2 da atmosfera seria maior se a proposta de usar uma matriz energética limpa se resumisse unicamente em utilizar o H2 como combustível.",
+  "alternativa_e": "Em relação ao ciclo do carbono, a proposta é semelhante ao uso do etanol como combustível veicular.",
+  "alternativa_correta": "c"
+}

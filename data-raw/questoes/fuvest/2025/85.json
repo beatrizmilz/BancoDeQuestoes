@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-85",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 85,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "História",
+  "temas": "Inconfidência Mineira; Cecília Meireles; Literatura Brasileira",
+  "texto_questao": "“Se a derrama for lançada,\nhá levante, com certeza.\nCorre-se por essas ruas?\nCorta-se alguma cabeça?\nDo cimo de alguma escada,\nprofere-se alguma arenga?\nQue bandeira se desdobra?\nCom que figura ou legenda?\nCoisas da Maçonaria,\ndo Paganismo ou da Igreja?\nA Santíssima Trindade?\nUm gênio a quebrar algemas?\nAtrás de portas fechadas,\nà luz de velas acesas,\nentre sigilo e espionagem,\nacontece a Inconfidência.”\nOs versos de Cecília Meireles, no Romanceiro da Inconfidência, remetem",
+  "alternativa_a": "à insurreição promovida por maçons e reinóis, adeptos do iluminismo, contra a cobrança do quinto real sobre a exploração de diamantes na Capitania de Minas Gerais.",
+  "alternativa_b": "à possibilidade de sublevação motivada pela defesa da liberdade, por indivíduos de diferentes setores de Minas Gerais, ante a ameaça de cobrança de impostos metropolitanos.",
+  "alternativa_c": "à disputa entre católicos apoiadores do recolhimento do dízimo nas Minas Gerais e republicanos defensores da suspensão de impostos cobrados pelo Estado e pela Igreja.",
+  "alternativa_d": "ao movimento de setores reacionários da sociedade mineira, responsáveis por conspirar contra os idealizadores da Conjuração e denunciar os seus planos de revolução.",
+  "alternativa_e": "à trapaça e delação, que fizeram parte da Conjuração e ocorreram em razão das discrepâncias ideológicas dos denunciantes em relação aos rebelados.",
+  "alternativa_correta": "b"
+}

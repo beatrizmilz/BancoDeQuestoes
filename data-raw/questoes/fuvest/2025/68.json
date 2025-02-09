@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-68",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 68,
+  "imagem_1": "68.png",
+  "imagem_2": null,
+  "disciplina": "Geografia",
+  "temas": "Produto Interno Bruto; Publicações científicas; Comparação entre países",
+  "texto_questao": "O gráfico a seguir apresenta dados do Produto Interno Bruto (PIB) por pessoa e dados de publicações científicas por milhão de habitantes para um grupo selecionado de países, além de destacar o estado de São Paulo.\n Revista Pesquisa FAPESP – Agosto/2022 (Adaptado).\n A partir da análise do gráfico e do texto, é correto afirmar:",
+  "alternativa_a": "Irã, Tunísia e África do Sul possuem um PIB por pessoa abaixo da média mundial e apresentam um número de publicações científicas por milhão de habitantes superior ao da média mundial.",
+  "alternativa_b": "O estado de São Paulo possui uma quantidade de publicações por milhão de habitantes abaixo da média mundial, enquanto o Brasil, com um PIB por pessoa maior que o do estado paulista, tem uma quantidade de publicações maior.",
+  "alternativa_c": "Índia e Indonésia possuem um PIB por pessoa acima da média mundial, no entanto, o número de publicações por milhão de habitantes desses países é superior ao da média mundial.",
+  "alternativa_d": "Os países do Norte Global, embora tenham um PIB por pessoa maior que a média mundial, possuem uma quantidade menor de publicações por milhão de habitantes, se comparados com a média mundial.",
+  "alternativa_e": "Argentina, Tailândia e México, apesar de possuírem um PIB por pessoa abaixo da média mundial, apresentam produção científica por milhão de habitantes acima da média mundial.",
+  "alternativa_correta": "b"
+}

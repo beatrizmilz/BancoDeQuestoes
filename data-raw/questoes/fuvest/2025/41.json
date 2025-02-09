@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-41",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 41,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Literatura",
+  "temas": "Música contemporânea",
+  "texto_questao": "Na letra da música, o verso “Like you are a poet trapped inside\nthe body of a finance guy”",
+  "alternativa_a": "enaltece a romantização e idealização de épocas passadas.",
+  "alternativa_b": "destaca o papel de contextos externos no manejo de frustrações.",
+  "alternativa_c": "expressa o sentimento de insatisfação ou inadequação em relação às expectativas sociais.",
+  "alternativa_d": "critica a revelação de segredos e o rompimento de fronteiras pessoais.",
+  "alternativa_e": "enfatiza a importância da sorte e de elementos culturais como mitos e rituais.",
+  "alternativa_correta": "c"
+}

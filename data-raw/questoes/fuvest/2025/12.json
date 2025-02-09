@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-12",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 12,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Filosofia; Sociologia",
+  "temas": "Colonialismo de Dados; Extrativismo Digital; Capitalismo Contemporâneo",
+  "texto_questao": "Texto 1\n“Em Big Tech: a ascensão dos dados e a morte da política,\nMorozov estabelece ‘um paralelo com os setores extrativistas\nde recursos naturais, como o petróleo’, colocando ‘no centro\nda discussão o modo de produção dessa economia, que ele\nchama de ‘extrativismo de dados’. Apesar de a frase ‘os dados\nsão o novo petróleo’ ser um chavão fraco em termos\nconceituais, Morozov acha o modismo útil para debatermos a\nmatriz extrativista desse modo de produção, em especial a\nforma como as grandes empresas de tecnologia ‘continuam\nescavando a nossa psique tal como as empresas de petróleo\nescavam o solo’.” \n ZANATTA, Rafael. “Extrativismo Digital”. Quatro Cinco Um, 01/04/2019. \n Disponível em: https://quatrocincoum.com.br/resenhas/ (Adaptado).\n\nTexto 2\n“Colonialismo de dados é um modo de configurar o mundo\ninteiro, de tal forma que um recurso novo possa ser extraído\n– e esse recurso é a vida humana a partir da qual se pode\nextrair um valor econômico. Sustentamos que os modos nos\nquais este novo colonialismo opera, as escalas nas quais opera\ndiferem do colonialismo histórico que tão bem entendemos.\nMas a função, a finalidade subjacente, o núcleo deste novo\ncolonialismo é exatamente o mesmo do colonialismo\nhistórico. É o de despossuir, apropriar-se dos recursos do\nmundo para o bem de uns poucos, de uma parte do mundo.”\n COULDRY, Nick. Colonialismo de Dados e Esvaziamento da Vida Social Antes\n e Pós Pandemia de Covid-19. In: Homo Digitalis. A Escalada da\n Algoritmização da Vida em Tempos de Pandemia. Anais do XIX Simpósio\n Internacional Instituto Humanitas Unisinos (Adaptado).\n\nConsiderando os excertos apresentados, é correto afirmar\nque extrativismo de dados e colonialismo de dados são\nconceitos desenvolvidos por Morozov e Couldry para nomear\n e descrever fenômenos",
+  "alternativa_a": "baseados em mecanismos inéditos de acumulação de\ndados na história, de amplo alcance, complementares e\ncentrais para diferenciar a atual fase do modo de\nprodução capitalista.",
+  "alternativa_b": "essencialmente diferentes, pois, enquanto o extrativismo\ntrata de uma relação das empresas de tecnologia com a\npsique, o colonialismo trata de uma relação dessas\nempresas com a vida humana.",
+  "alternativa_c": "cuja lógica de apropriação é diferente daquela verificada\nem relação ao petróleo, o que explica os limites da\ncomparação entre os dados produzidos por usuários da\ninternet e o petróleo.",
+  "alternativa_d": "correspondentes a duas formas análogas de apreender\ntransformações      do     capitalismo   contemporâneo,\nreferindo-se a práticas que surgiram no passado,\ncolonização e extrativismo, e com os quais compartilham\nfinalidades.",
+  "alternativa_e": "que abrem possibilidades para que alguns países\ndesprovidos de recursos naturais valiosos se apropriem de\ndados produzidos por usuários, sem autorização prévia\ndestes, para extrair lucros.",
+  "alternativa_correta": "d"
+}

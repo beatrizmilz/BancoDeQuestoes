@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-37",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 37,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Literatura",
+  "temas": "A expressão bem-vinda - Autor desconhecido",
+  "texto_questao": "A expressão bem-vinda usada no título e repetida no último verso faz alusão",
+  "alternativa_a": "ao aprisionamento da mulher que não consegue se libertar do poderio masculino.",
+  "alternativa_b": "à guerra interior e à falta de forças da mulher oprimida, que aceita sua condição.",
+  "alternativa_c": "ao renascimento da mulher que alcança, após a opressão, coragem para encontrar-se a si mesma.",
+  "alternativa_d": "ao rebaixamento da mulher que se cala e se desculpa, perdendo aos poucos sua autoestima.",
+  "alternativa_e": "à força da mulher que, mesmo hostilizada, tem poder para fazer entrar em sua casa quem a encurralava.",
+  "alternativa_correta": "c"
+}

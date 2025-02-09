@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-77",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 77,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Matemática",
+  "temas": "",
+  "texto_questao": "Em relação ao plano cartesiano Oxy, é correto afirmar que as equações 𝑥  𝑦  4𝑥  3 e 𝑥  𝑦  4𝑦  3 representam",
+  "alternativa_a": "duas circunferências com raios de mesma medida e que se interceptam em dois pontos.",
+  "alternativa_b": "duas circunferências com raios de medidas diferentes e que se interceptam em dois pontos.",
+  "alternativa_c": "duas circunferências que se interceptam em um único ponto.",
+  "alternativa_d": "duas circunferências concêntricas e que não se interceptam.",
+  "alternativa_e": "duas circunferências com centros distintos e que não se interceptam.",
+  "alternativa_correta": "e"
+}

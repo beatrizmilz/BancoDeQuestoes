@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-74",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 74,
+  "imagem_1": "73-74.png",
+  "imagem_2": null,
+  "disciplina": "Física",
+  "temas": "",
+  "texto_questao": "Considere agora um outro experimento feito em condições semelhantes, em que o manômetro indica uma pressão de 5 atm e, sem que a pressão no interior da garrafa se altere, ele é cuidadosamente substituído por uma rolha de 10 g de massa e 2 cm de diâmetro (igual ao diâmetro interno do bocal da garrafa). Logo após a rolha ser encaixada no local, ela é expelida devido à pressão interna da garrafa ser maior que a pressão atmosférica. A aceleração da rolha no momento em que ela é expelida é de, aproximadamente,\n(A) 12 m/s2.\n(B) 120 m/s2.\n(C) 1200 m/s2.\n(D) 12000 m/s2.\n(E) 120000 m/s2.\n\nNote e adote:\nAssuma que a pressão atmosférica seja de 1 atm = 105 Pa.\nUtilize π = 3.\nConsidere que as forças relevantes atuando sobre a rolha no momento em que é expelida são apenas aquelas relativas à diferença de pressão entre os seus lados interno e externo.",
+  "alternativa_a": "12 m/s2.",
+  "alternativa_b": "120 m/s2.",
+  "alternativa_c": "1200 m/s2.",
+  "alternativa_d": "12000 m/s2.",
+  "alternativa_e": "120000 m/s2.",
+  "alternativa_correta": "c"
+}

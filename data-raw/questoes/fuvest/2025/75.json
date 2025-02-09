@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-75",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 75,
+  "imagem_1": "75.png",
+  "imagem_2": null,
+  "disciplina": "Matemática",
+  "temas": "Geometria; Volume de sólidos",
+  "texto_questao": "Um designer de produtos deseja fabricar um vaso para flores conforme a figura a seguir. \n Sabe-se que a base e o topo do vaso são uma circunferência de raio 𝑅 que mede 10 cm, a parte central é uma circunferência de raio 𝑟 de 5 cm e a medida ℎ mede 12 cm. Qual é a capacidade volumétrica desse vaso em cm3?",
+  "alternativa_a": "1400𝜋",
+  "alternativa_b": "2100𝜋",
+  "alternativa_c": "2400𝜋",
+  "alternativa_d": "2600𝜋",
+  "alternativa_e": "2800𝜋",
+  "alternativa_correta": "c"
+}

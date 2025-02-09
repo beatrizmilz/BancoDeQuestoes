@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-58",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 58,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Química",
+  "temas": "Toxicidade do chumbo; Contaminação de águas; Legislação sobre água potável",
+  "texto_questao": "A toxicidade do Pb e o risco de sua ingestão ganharam notoriedade na mídia devido à presença desse elemento em copos térmicos amplamente comercializados. A exposição ao Pb, no entanto, pode ocorrer também por fontes naturais, como a ingestão de água em contato prolongado com minérios como a anglesita, rico em PbSO4 (Kps = 1,0 × 10ꟷ8). Sabendo que a legislação estabelece a concentração máxima de Pb de 0,01 mg/L para água potável, assinale a alternativa correta em relação à ingestão de água que tenha contato prolongado com a anglesita.\n(A) Não é segura, pois a concentração de Pb na água será de 2,07×101 mg/L, maior que o valor permitido.\n(B) É segura, pois a concentração de Pb na água será de 1×10ꟷ4 mg/L, menor que o valor permitido.\n(C) Não é segura, pois a concentração de Pb na água será de 1×10ꟷ8 mg/L, menor que o valor permitido.\n(D) É segura, pois a concentração de Pb na água será de 1×10ꟷ2 mg/L, igual ao valor permitido.\n(E) É segura, pois a concentração de Pb na água será de 2,07×10ꟷ6 mg/L, maior que o valor permitido.\n\nNote e adote:\nMassa molar (g/mol): Pb = 207",
+  "alternativa_a": "Não é segura, pois a concentração de Pb na água será de 2,07×101 mg/L, maior que o valor permitido.",
+  "alternativa_b": "É segura, pois a concentração de Pb na água será de 1×10ꟷ4 mg/L, menor que o valor permitido.",
+  "alternativa_c": "Não é segura, pois a concentração de Pb na água será de 1×10ꟷ8 mg/L, menor que o valor permitido.",
+  "alternativa_d": "É segura, pois a concentração de Pb na água será de 1×10ꟷ2 mg/L, igual ao valor permitido.",
+  "alternativa_e": "É segura, pois a concentração de Pb na água será de 2,07×10ꟷ6 mg/L, maior que o valor permitido.",
+  "alternativa_correta": "a"
+}

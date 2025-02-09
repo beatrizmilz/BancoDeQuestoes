@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-55",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 55,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Biologia",
+  "temas": "Sistema circulatório; Invertebrados",
+  "texto_questao": "Dentre os animais invertebrados, alguns grupos apresentam o sistema circulatório fechado, enquanto outros apresentam o sistema circulatório aberto, o que leva a diferenças em processos fisiológicos.\nNos invertebrados, o sistema circulatório",
+  "alternativa_a": "fechado apresenta uma menor pressão do sangue / hemolinfa em relação ao sistema circulatório aberto.",
+  "alternativa_b": "aberto apresenta o coração dividido em quatro cavidades: dois átrios e dois ventrículos.",
+  "alternativa_c": "fechado permite maior eficiência no transporte de oxigênio em relação ao sistema circulatório aberto.",
+  "alternativa_d": "aberto facilita a distribuição dos nutrientes aos tecidos em relação ao sistema circulatório fechado.",
+  "alternativa_e": "fechado mistura mais facilmente os gases respiratórios: oxigênio e dióxido de carbono.",
+  "alternativa_correta": "c"
+}

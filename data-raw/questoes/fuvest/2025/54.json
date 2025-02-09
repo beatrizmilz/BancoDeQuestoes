@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-54",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 54,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Biologia",
+  "temas": "Dengue; Mosquitos; Aedes aegypti",
+  "texto_questao": "“A distribuição dos mosquitos, a frequência de suas picadas e o tempo de eclosão de seus ovos são afetados pela temperatura, pluviosidade e velocidade do vento, além de outros fatores, como deslocamento e densidade populacionais. Por exemplo, com uma temperatura de 27 °C, o período de incubação dos ovos é de dez dias; no entanto, a 37 °C, esse período passa a ser de sete dias. Além disso, a intermitência das chuvas no final da estação do verão e os ventos calmos acentuam a proliferação e a atuação do vetor.” \n MENDONÇA, Francisco de Assis. Aquecimento Global e Saúde: uma perspectiva geográfica – notas introdutórias. Terra Livre, 2003 (Adaptado). \n Com base no texto, assinale a alternativa correta.",
+  "alternativa_a": "A elevação da temperatura e o aumento da pluviosidade, somados ao desmatamento, à urbanização e à circulação de pessoas em várias áreas, potencializam a expansão da dengue.",
+  "alternativa_b": "A dengue é um problema nacional e está relacionada ao fato de o Brasil ser um país tropical com áreas de florestas, aspectos que, combinados à dispersão da população, contribuem para minimizar a epidemia.",
+  "alternativa_c": "A proliferação do mosquito Aedes aegypti ocorre em áreas pouco povoadas nos centros urbanos, associada às baixas temperaturas que intensificam a transmissão da doença.",
+  "alternativa_d": "No território brasileiro, as áreas com baixas temperaturas reduzem o tempo necessário para eclosão dos ovos, aumentando a proliferação do mosquito Aedes aegypti e a frequência de picadas.",
+  "alternativa_e": "A dengue é um problema de saúde pública em escala mundial e sua disseminação está associada à diminuição de temperatura, aumento da velocidade do vento e redução da precipitação.",
+  "alternativa_correta": "a"
+}

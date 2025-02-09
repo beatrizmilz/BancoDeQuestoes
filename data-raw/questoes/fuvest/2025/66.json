@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-66",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 66,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Português",
+  "temas": "",
+  "texto_questao": "Ao empregar o pronome se em “utilizou-se o caldo de cana em uma célula a combustível para gerar energia elétrica”, o pesquisador",
+  "alternativa_a": "indetermina o sujeito, tentando mostrar que desconhece a real autoria do experimento.",
+  "alternativa_b": "valoriza o objeto “caldo de cana”, enfatizando a importância desse produto para o experimento.",
+  "alternativa_c": "chama a atenção para o verbo transitivo “utilizar”, valorizando a importância de se experimentar diretamente o caldo de cana.",
+  "alternativa_d": "faz uso da voz passiva, construção em que “caldo de cana” atua como sujeito, deixando de haver menção a quem realizou o experimento.",
+  "alternativa_e": "escolhe uma construção reflexiva em que “caldo de cana” é, ao mesmo tempo, o agente e o objeto do experimento realizado.",
+  "alternativa_correta": "d"
+}

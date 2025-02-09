@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-72",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 72,
+  "imagem_1": "72.png",
+  "imagem_2": null,
+  "disciplina": "Química",
+  "temas": "Reações de substituição; Antibióticos; Soluções ácidas e básicas",
+  "texto_questao": "A reação do antibiótico sulfanilamida com halogênios leva à reação de substituição com o halogênio em duas posições distintas do anel aromático, como representado na equação não balanceada a seguir. \n Em um experimento, 1 L de uma solução de sulfanilamida de pH 5 reagiu com Br2 em excesso, obtendo-se pH 4 após reação total. Considerando que o volume se manteve inalterado após a adição do halogênio, quantos mols de sulfanilamida reagiram com bromo?",
+  "alternativa_a": "4,5 × 10ꟷ5",
+  "alternativa_b": "9,0 × 10ꟷ5",
+  "alternativa_c": "1,0 × 10ꟷ4",
+  "alternativa_d": "5,0 × 10ꟷ2",
+  "alternativa_e": "1,0 × 10ꟷ1",
+  "alternativa_correta": "c"
+}

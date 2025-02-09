@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-9",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 9,
+  "imagem_1": "19.png",
+  "imagem_2": "39.png",
+  "disciplina": "Filosofia",
+  "temas": "Mídia digital; Comunicação; Produção e consumo de informação",
+  "texto_questao": "“A mídia digital é uma mídia da presença. A sua \ntemporalidade é o presente imediato. A comunicação digital \nse caracteriza pelo fato de que informações são produzidas, \nenviadas e recebidas sem mediação por meio de \nintermediários. Mediação e representação são interpretadas \ncomo não transparência e ineficiência, como \ncongestionamento de tempo e de informação.\nUma mídia eletrônica de massa clássica como o rádio só \npermite uma comunicação unilateral. O destinatário da \nmensagem é condenado à passividade.\nHoje não somos mais destinatários e consumidores \npassivos de informação, mas sim remetentes e produtores \nativos. Não nos contentamos mais em consumir informações \npassivamente, mas sim queremos produzi-las e comunicá-las \nativamente nós mesmos. Somos simultaneamente \nconsumidores e produtores.” \n HAN, Byung-Chul. No enxame: Perspectivas do digital. São Paulo: Editora Vozes, 2018. p.35-36 (Adaptado). \nSegundo o texto, a mídia digital distingue-se da mídia de massa tradicional por",
+  "alternativa_a": "reforçar a separação entre consumidor e produtor,\nresultante da ampliação da comunicação unilateral na\ninternet.",
+  "alternativa_b": "apostar na passividade do público, que precisa de um\nmediador para poder comunicar informações ativamente.",
+  "alternativa_c": "gerar excesso de informação, que consolida estrutura\ncapaz de condenar todos os consumidores à passividade.",
+  "alternativa_d": "provocar presentificação, decorrente da dissolução dos\nintermediários e da combinação dos papéis de\nconsumidor e produtor.",
+  "alternativa_e": "dissolver a distinção entre produtor e consumidor,\ncausadora de congestionamento de tempo e de\ninformação.",
+  "alternativa_correta": "d"
+}

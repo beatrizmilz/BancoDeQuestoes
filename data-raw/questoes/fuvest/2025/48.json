@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-48",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 48,
+  "imagem_1": "48_a.png",
+  "imagem_2": "48_b.png",
+  "disciplina": "Geografia",
+  "temas": "Abate de bovinos; Dados IBGE; Estatísticas Agropecuárias",
+  "texto_questao": "Os gráficos a seguir apresentam a evolução do abate de bovinos e da participação de machos e fêmeas, por trimestre (indicado por algarismo romano), segundo informações obtidas pelo IBGE.\n\nEvolução do abate de bovinos no Brasil por trimestre (2019-2024)\n\n\nEvolução da participação de machos e fêmeas no abate de bovinos no Brasil por trimestre (2019-2024)\n\nIBGE: Diretoria de Pesquisas. Coordenação de Estatísticas Agropecuárias. Pesquisa Trimestral do Abate de Animais 2019-2024 (Adaptado).\nA partir dos dados observados nos gráficos, é correto afirmar:",
+  "alternativa_a": "No primeiro trimestre de 2023, a diferença entre as quantidades de machos e fêmeas abatidos foi menor que a do primeiro trimestre de 2019.",
+  "alternativa_b": "No primeiro trimestre de 2023, a quantidade de fêmeas abatidas foi de, aproximadamente, 2 milhões.",
+  "alternativa_c": "No primeiro trimestre de 2021 e de 2022, a diferença entre as quantidades de machos e fêmeas abatidos foi igual.",
+  "alternativa_d": "No primeiro trimestre de 2024, a quantidade de fêmeas abatidas foi de, aproximadamente, 4,3 milhões.",
+  "alternativa_e": "No primeiro trimestre de 2024, a quantidade de fêmeas abatidas foi igual à do primeiro trimestre de 2019.",
+  "alternativa_correta": "d"
+}

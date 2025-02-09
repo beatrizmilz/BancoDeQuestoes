@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-3",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 3,
+  "imagem_1": "23.png",
+  "imagem_2": "3.png",
+  "disciplina": "Literatura",
+  "temas": "Charge de Jean Galvão",
+  "texto_questao": "Jean Galvão. Disponível em https://cartum.folha.uol.com.br/. \n Considerando a charge, é correto afirmar:",
+  "alternativa_a": "Há uma incoerência entre a imagem do segundo quadro e o enunciado verbal do primeiro quadro, uma vez que a posposição do adjunto adverbial “na água” anula qualquer ambiguidade.",
+  "alternativa_b": "Ao antecipar o objeto direto “o mercúrio” para o começo da oração, o chargista chama a atenção para esse elemento, estimulando o leitor a buscá-lo visualmente no segundo quadro.",
+  "alternativa_c": "Por meio da escolha do verbo “descartar”, mostra-se, de forma crítica, a necessidade da criação de um local correto para o depósito dos rejeitos provenientes do garimpo ilegal.",
+  "alternativa_d": "O uso da forma pronominal informal “a gente”, em detrimento do pronome “nós”, empregado em situações mais formais e sérias, atenua o teor crítico, o que colabora para gerar efeito humorístico.",
+  "alternativa_e": "O significado negativo do prefixo que aparece na palavra “ilegal” reforça a precariedade do atendimento à saúde nas comunidades indígenas.",
+  "alternativa_correta": "b"
+}

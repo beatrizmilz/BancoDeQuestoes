@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-11",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 11,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Português",
+  "temas": "Conectivos; Interpretação de Texto",
+  "texto_questao": "Em relação aos conectivos sublinhados no texto, é correto afirmar:",
+  "alternativa_a": "seja...seja evidencia a dúvida das autoras quanto aos campos afetados pelo cancelamento.",
+  "alternativa_b": "que é utilizado para intensificar o valor dos movimentos sociais na luta pela diversidade.",
+  "alternativa_c": "sendo assim indica adesão autoral diante das formas de sanção aplicadas pelos agentes do cancelamento.",
+  "alternativa_d": "mas sim ressalta a diferença entre como se pune na cultura do cancelamento e no direito penal.",
+  "alternativa_e": "como introduz uma comparação entre distintas ações passíveis de gerar cancelamento.",
+  "alternativa_correta": "d"
+}

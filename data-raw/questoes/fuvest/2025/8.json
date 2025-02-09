@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-8",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 8,
+  "imagem_1": "18.png",
+  "imagem_2": "48_a.png",
+  "disciplina": "Filosofia",
+  "temas": "Iconoclastia; Teologia cristã; Imagens sagradas",
+  "texto_questao": "“Eu não venero a criação mais do que o Criador, mas venero a criatura criada como eu sou, adotando a criação de maneira livre e espontânea, de modo que Ele possa elevar nossa natureza e nos tornar partícipes de Sua natureza divina. Sendo assim, eu me atrevo a fazer uma imagem do Deus invisível não como invisível, mas como tendo se tornado visível por nossa causa, tornando-se carne e sangue. Eu não faço uma imagem da divindade imortal. Eu pinto a carne visível de Deus, pois é impossível representar o espírito e ainda mais Deus, que dá vida ao espírito.” \n John Damascene. On holy images. Disponível em https://www.gutenberg.org/files/49917/ (Adaptado). \n Nessa citação, João Damasceno (675-749), monge e teólogo cristão do período medieval, dirige-se contra o movimento iconoclasta ao",
+  "alternativa_a": "colocar a criatura no mesmo nível do Criador.",
+  "alternativa_b": "reduzir a divindade a seus elementos materiais.",
+  "alternativa_c": "identificar a imagem visível com a natureza divina.",
+  "alternativa_d": "negar o dogma da divindade de Jesus Cristo.",
+  "alternativa_e": "justificar a veneração de imagens sagradas.",
+  "alternativa_correta": "e"
+}

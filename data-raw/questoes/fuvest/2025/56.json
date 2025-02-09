@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-56",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 56,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Biologia",
+  "temas": "Mumificação; Processos de Preservação",
+  "texto_questao": "O processo de mumificação usado pelos egípcios começava com a retirada dos órgãos e desidratação do corpo utilizando uma mistura natural, obtida em leito de lagos, de sais solúveis de sódio, como carbonato, hidrogenocarbonato, cloreto e sulfato. Após a desidratação, o corpo era preenchido com uma mistura de serragem e ervas aromáticas como canela, cássia, mirra e até mesmo cebola, que, por conterem álcoois e aldeídos com propriedades antimicrobianas, dificultavam a decomposição do corpo. Por fim, o corpo era envolvido em tecido embebido em resinas insolúveis em água, como betume ou óleo de cedro, que, após seco, formava uma camada impermeabilizante. A partir dessas informações, assinale a alternativa correta.",
+  "alternativa_a": "Os sais de sódio mencionados, por serem hidrofílicos, repelem a água.",
+  "alternativa_b": "Propanona e hexano são exemplos de álcoois e aldeídos antimicrobianos.",
+  "alternativa_c": "Assim como o betume e óleo de cedro, qualquer outro composto orgânico serviria como impermeabilizante.",
+  "alternativa_d": "Todo sal iônico poderia ser utilizado em substituição aos sais de sódio mencionados.",
+  "alternativa_e": "A impermeabilidade conferida pelas resinas se deve às suas características apolares ou muito pouco polares.",
+  "alternativa_correta": "e"
+}

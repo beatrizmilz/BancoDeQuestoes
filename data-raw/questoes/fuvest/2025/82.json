@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-82",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 82,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Literatura",
+  "temas": "Quincas Borba - Machado de Assis; A Ilustre Casa de Ramires - Eça de Queirós",
+  "texto_questao": "Mais de uma vez, o brasileiro Machado de Assis e o português Eça de Queirós foram aproximados porque traçaram linhas de compreensão das suas respectivas sociedades, em um mesmo tempo historicamente situado. Os protagonistas Rubião, de Quincas Borba (1891), e Gonçalo, de A Ilustre Casa de Ramires (1900),",
+  "alternativa_a": "representam, respectivamente, a ascensão política da burguesia brasileira durante a segunda metade do século XIX e a decadência da aristocracia portuguesa no mesmo período.",
+  "alternativa_b": "têm suas aspirações de grandeza e reconhecimento social frustradas diretamente pelo envolvimento de ambos com as políticas partidárias nacionais, introduzindo reformas substanciais que alteram a situação periférica de cada país.",
+  "alternativa_c": "buscam reconhecimento social, continuamente frustrados nesse propósito por se inserirem em meios sociais que privilegiam a grandeza moral e as virtudes humanas.",
+  "alternativa_d": "comprometem-se com a superação dos atrasos civilizacionais de seus países. Apesar de terem destinos diferentes, confrontam-se com o descompromisso de suas respectivas sociedades quanto às transformações sociais e econômicas.",
+  "alternativa_e": "são vítimas de suas ideias ambiciosas de modernização nacional, seja por Rubião promover ideias políticas “modernas”, seja por Gonçalo insistir na restauração da grandeza de sua família. Ao final, atingem seus objetivos.",
+  "alternativa_correta": "d"
+}

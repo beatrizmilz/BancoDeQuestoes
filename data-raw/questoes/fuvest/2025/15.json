@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-15",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 15,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Filosofia",
+  "temas": "Teorias da Justiça",
+  "texto_questao": "“justice, each getting what he or she is due. Formal justice is\na imparcial and consistent application of principles, whether\nor not the principles themselves are just. Substantive justice\nis closely associated with rights, i.e., with what individuals can\nlegitimately demand of one another or what they can\nlegitimately demand of their government (e.g., with respect\nto the protection of liberty or the promotion of equality).\nRetributive justice concerns when and why punishment is\njustified. Debate continues over whether punishment is\njustified as retribution for past wrongdoing or because it\ndeters future wrongdoing. Those who stress retribution as the\njustification for punishment usually believe human beings\nhave libertarian free will, while those who stress deterrence\nusually accept determinism.\nAt least since Aristotle, justice has commonly been identified\nboth with obeying law and with treating everyone with\nfairness. But if law is, and justice is not, entirely a matter of\nconvention, then justice cannot be identified with obeying\nlaw.” \n The Cambridge Dictionary of Philosophy. General Editor Robert Audi,\n Cambridge, U.K.: C.U.P., 1999. p.456.\nConforme o verbete, a justiça substantiva pode ser definida\ncomo a",
+  "alternativa_a": "aplicação imparcial e consistente de princípios éticos e\n    morais.",
+  "alternativa_b": "promoção de punições rigorosas para qualquer tipo de\n    crime.",
+  "alternativa_c": "distribuição de recursos econômicos de maneira\n    equitativa, com ênfase no coletivo.",
+  "alternativa_d": "garantia de que todos recebam o que lhes é devido,\n    contemplando direitos individuais.",
+  "alternativa_e": "proteção exclusiva dos direitos das minorias, aumentando\n    sua visibilidade social.",
+  "alternativa_correta": "d"
+}

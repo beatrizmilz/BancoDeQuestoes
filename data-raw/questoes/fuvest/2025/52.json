@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-52",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 52,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Matemática",
+  "temas": "Função cosseno; Ondas; Modulação de onda AM",
+  "texto_questao": "As enchentes ocorridas no Rio Grande do Sul, em maio de 2024, prejudicaram a infraestrutura de comunicação. A população afetada era informada sobre as notícias relativas às enchentes ao sintonizar, por rádio de pilhas, frequências de onda AM, cujo alcance é maior.\nUma onda AM é modelada matematicamente por equações que envolvem a função cosseno, cuja variável independente é o tempo t, que aparece multiplicado pela frequência f da onda.\nComo exemplo, pode-se considerar a equação referente ao processo de modulação de uma onda AM:\n            𝑠 𝑡      𝐴 1     𝑘 𝑚 𝑡 cos 2𝜋 𝑓 𝑡 ,\nem que 𝐴 é a amplitude, 𝑓 a frequência, 𝑘 a constante da sensibilidade à amplitude e 𝑚 𝑡 o sinal que contém a informação.\nQuando a frequência f é multiplicada por 3, o comprimento da onda sofre alteração. Por causa dessa multiplicação, qual transformação ocorre no gráfico da função cosseno original?",
+  "alternativa_a": "Expansão vertical.",
+  "alternativa_b": "Translação horizontal.",
+  "alternativa_c": "Expansão horizontal.",
+  "alternativa_d": "Contração horizontal.",
+  "alternativa_e": "Contração vertical.",
+  "alternativa_correta": "d"
+}

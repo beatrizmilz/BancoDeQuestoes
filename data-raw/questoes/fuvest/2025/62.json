@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-62",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 62,
+  "imagem_1": "62.png",
+  "imagem_2": null,
+  "disciplina": "Física",
+  "temas": "Energia potencial; Energia cinética",
+  "texto_questao": "Um brinquedo bastante comum em parques de diversões, a montanha-russa, utiliza-se da transformação parcial de energia potencial em energia cinética (e vice-versa) como princípio de funcionamento. Uma das montanhas-russas mais famosas do mundo, a Takabisha, cuja pista possui mais de 1 km de extensão, localiza-se no Japão e tem vista para o Monte Fuji. Nela, a subida inicial até o ponto mais alto, situado a uma altura aproximada de 50 m do solo, é feita sob ângulo de aproximadamente 90 graus, seguida de uma descida vertiginosa, cuja velocidade, no ponto mais baixo desse trecho, atinge cerca de 30 m/s em poucos segundos. \n Montanha-russa Takabisha. \n Considerando um carrinho ocupado com massa total de 300 kg em repouso na posição de altura máxima, a energia mecânica perdida durante a descida inicial é, aproximadamente,",
+  "alternativa_a": "1200 J.",
+  "alternativa_b": "2500 J.",
+  "alternativa_c": "5000 J.",
+  "alternativa_d": "15000 J.",
+  "alternativa_e": "20000 J.",
+  "alternativa_correta": "d"
+}

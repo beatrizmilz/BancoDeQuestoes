@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-53",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 53,
+  "imagem_1": "53.png",
+  "imagem_2": null,
+  "disciplina": "Geografia",
+  "temas": "Climatologia; Análise de Gráficos; Meteorologia",
+  "texto_questao": "A Estação Meteorológica Mirante de Santana é a principal referência do Instituto Nacional de Meteorologia (INMET) no município de São Paulo - SP. O climograma a seguir apresenta dados referentes ao mês de fevereiro de 2023. Neste mesmo mês, o Centro de Gerenciamento de Emergências Climáticas detectou 11 pontos de alagamentos no dia 19 e 14 pontos no dia 21. \n \n Disponível em https://portal.inmet.gov.br/noticias/ (Adaptado). \n Com base no texto e no gráfico, assinale a alternativa correta.",
+  "alternativa_a": "A menor amplitude térmica ocorreu no dia 19, quando foi observado um dos maiores volumes de chuva do mês.",
+  "alternativa_b": "Os quatro dias mais chuvosos apresentaram as menores temperaturas mínimas.",
+  "alternativa_c": "A temperatura máxima no período variou entre 21,5 °C e 17,8 °C.",
+  "alternativa_d": "Os cinco dias mais quentes correspondem às maiores precipitações.",
+  "alternativa_e": "Os pontos de alagamento nos dias 19 e 21 foram provocados pela chuva acumulada de 428,9 mm.",
+  "alternativa_correta": "a"
+}

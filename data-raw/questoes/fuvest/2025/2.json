@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-2",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 2,
+  "imagem_1": "1.png",
+  "imagem_2": "16.png",
+  "disciplina": "Geografia",
+  "temas": "Garimpo ilegal; Terras indígenas; Amazônia",
+  "texto_questao": "Analise, na figura a seguir, os dados referentes a áreas de garimpo ilegal localizadas em terras indígenas na Amazônia brasileira e sua distância em relação a corpos d’água.\n\nMapBiomas. 2024. Proximidade de Garimpos, Rios e Lagos na Amazônia (Adaptado).\n\nA partir dos dados apresentados e da realidade socioambiental da Amazônia, é correto afirmar:",
+  "alternativa_a": "Os territórios indígenas encontram-se nas áreas mais desmatadas da Amazônia; como o garimpo ilegal produz forte impacto ambiental pelo intenso uso da água em seus processos, tal atividade colabora com a desertificação do bioma.",
+  "alternativa_b": "O garimpo ilegal representa alto risco a populações humanas e animais em geral, pela contaminação das águas e dos alimentos por substâncias usadas na garimpagem e porque tal atividade ocorre em áreas ainda muito preservadas, aumentando o impacto ambiental.",
+  "alternativa_c": "O garimpo ilegal na Amazônia não produz tanto impacto para os corpos d’água, uma vez que as atividades encontram-se distantes do rio Amazonas e de seus afluentes, os maiores rios da região; seu maior impacto ocorre devido ao desmatamento de extensas áreas de floresta nativa.",
+  "alternativa_d": "A proximidade dos corpos d’água deve-se a questões estratégicas, e não ao garimpo ilegal propriamente, pois este é de baixo impacto; porém traz conflitos territoriais com as comunidades indígenas, e os rios constituem rotas de fuga rápidas e eficientes para os garimpeiros.",
+  "alternativa_e": "A relação entre garimpos e corpos d’água ocorre de forma indireta, pois o garimpo amazônico não depende da água em seus processos; os garimpeiros buscam esses territórios porque as populações indígenas sabem onde existe ouro e se desenvolvem próximas a rios e lagos.",
+  "alternativa_correta": "b"
+}

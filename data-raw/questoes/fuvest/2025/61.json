@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-61",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 61,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Física; Literatura",
+  "temas": "Análise de letras; Canção Fall on Me - R.E.M.",
+  "texto_questao": "Os versos a seguir pertencem à canção Fall on Me, da banda norte-americana R.E.M., lançada em 1986. \n “There's a problem, feathers, iron\n Bargain buildings, weights and pulleys\n Feathers hit the ground before the weight can leave the air”\n Bill Berry, Peter Buck, Mike Mills e Michael Stipe. \n A qual episódio (real ou hipotético) da história da física o trecho da música faz alusão?",
+  "alternativa_a": "À queda de uma maçã, que teria inspirado Newton à descoberta da gravitação universal.",
+  "alternativa_b": "À observação de um pássaro em voo, que teria levado Einstein a formular a teoria da relatividade.",
+  "alternativa_c": "Aos experimentos com objetos de massas diferentes, que teriam indicado a Galileu os princípios da queda livre.",
+  "alternativa_d": "Ao transbordamento da água em uma banheira, que teria sugerido a Arquimedes o conceito de empuxo.",
+  "alternativa_e": "À queda de um bloco de ferro ligado a uma hélice, que teria levado Joule à equivalência entre calor e energia.",
+  "alternativa_correta": "a"
+}

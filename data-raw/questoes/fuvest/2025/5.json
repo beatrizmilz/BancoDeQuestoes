@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-5",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 5,
+  "imagem_1": "1.png",
+  "imagem_2": "16.png",
+  "disciplina": "Literatura",
+  "temas": "Dois irmãos - Milton Hatoum",
+  "texto_questao": "Os quadrinhos a seguir são parte da obra Dois irmãos, de Fábio Moon e Gabriel Bá (2015), uma adaptação do romance Dois irmãos, de Milton Hatoum, para o universo das novelas gráficas (graphic novels).\nConsiderando as características visuais dos quadrinhos e os traços narrativos do romance Dois irmãos, de Milton Hatoum, é correto afirmar:",
+  "alternativa_a": "O uso dos contrastes claro x escuro na novela gráfica confere ênfase visual ao conflito entre diferentes formas de privilégio e marginalização presentes no romance de Hatoum, explicitadas pelo ponto de vista do narrador.",
+  "alternativa_b": "Ao trabalhar com os contrastes claro x escuro em suas imagens, a novela gráfica enfatiza a diferença étnica e social que fundamenta a rivalidade fraterna entre Yaqub e Omar, um dos eixos estruturais do romance.",
+  "alternativa_c": "Ao utilizar procedimentos como a aproximação (zoom-in) e a fragmentação das imagens, a novela gráfica recria o fluxo de consciência e a atmosfera onírica da narrativa de Hatoum.",
+  "alternativa_d": "A novela gráfica demonstra, por meio de imagens, que o romance Dois irmãos reinventa a tradição da literatura regionalista do Brasil, retratando a opulência da cidade de Manaus ao longo do século XX.",
+  "alternativa_e": "Por meio de recursos estéticos como a fragmentação das imagens, a novela gráfica recupera o ponto de vista fraturado do romance de Hatoum, composto por vários narradores ao longo da história.",
+  "alternativa_correta": "b"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-14",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 14,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "História",
+  "temas": "Confederação do Equador; Política Brasileira",
+  "texto_questao": "“Brasileiros! (...) está conhecida nossa ilusão ou engano em adotarmos um sistema de governo defeituoso em sua origem, e mais defeituoso em suas partes componentes. As constituições, as leis e todas as instituições humanas são feitas para os povos e não os povos para elas. Eia, pois, brasileiros, tratemos de constituirmos de um modo análogo às luzes do século em que vivemos; o sistema americano deve ser idêntico; desprezemos instituições oligárquicas, só cabidas na encanecida Europa.” \n ANDRADE, Manoel de Carvalho Paes de. Manifesto de proclamação da Confederação do Equador. Apud TORRES, João Camillo de Oliveira. A democracia coroada: Teoria política do Império do Brasil. Petrópolis: Vozes, 1964. p.522 (Adaptado). \n O excerto apresenta trecho do manifesto divulgado pelos rebeldes da Confederação do Equador (1824) e reage explicitamente",
+  "alternativa_a": "à dissolução da Assembleia Constituinte e à outorga de uma constituição elaborada pelo Conselho de Estado.",
+  "alternativa_b": "ao distanciamento do governo brasileiro em relação à Coroa Portuguesa e à política europeia do período.",
+  "alternativa_c": "ao caráter descentralizador do regime monárquico e ao aumento da autonomia das províncias.",
+  "alternativa_d": "ao poder exercido pelos produtores nordestinos de algodão e pelos cafeicultores paulistas.",
+  "alternativa_e": "à adoção de regime republicano pela Constituição e ao fechamento do parlamento nacional.",
+  "alternativa_correta": "a"
+}

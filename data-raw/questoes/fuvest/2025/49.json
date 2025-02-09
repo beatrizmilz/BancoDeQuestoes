@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-49",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 49,
+  "imagem_1": "49.png",
+  "imagem_2": null,
+  "disciplina": "Geografia",
+  "temas": "Desmatamento; Biomas do Brasil; Atividade econômica no MATOPIBA",
+  "texto_questao": "Observe as imagens de satélite que indicam o desmatamento de 12.272 hectares no município de Formosa do Rio Preto (BA), região do MATOPIBA, composta pelos estados do Maranhão, Tocantins, Piauí e Bahia, no período 2019-2022.\n MapBiomas. 2023. Relatório de desmatamento no Brasil (Adaptado).\n Com base na análise temporal das imagens, assinale a alternativa que apresenta, respectivamente, o bioma correspondente à região do MATOPIBA, a atividade econômica desenvolvida nesse local e o possível impacto ambiental negativo decorrente de tal atividade.",
+  "alternativa_a": "Cerrado, agropecuária e processos erosivos.",
+  "alternativa_b": "Cerrado, silvicultura e contaminação do solo.",
+  "alternativa_c": "Amazônia, mineração e poluição das águas.",
+  "alternativa_d": "Caatinga, pastagem e impermeabilização da superfície.",
+  "alternativa_e": "Caatinga, extrativismo e perda de biodiversidade.",
+  "alternativa_correta": "a"
+}

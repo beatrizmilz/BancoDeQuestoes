@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-71",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 71,
+  "imagem_1": "71.png",
+  "imagem_2": null,
+  "disciplina": "Biologia",
+  "temas": "Resistência a antibióticos; Bactérias; Antibióticos",
+  "texto_questao": "Aumenta nos hospitais brasileiros a presença de bactérias resistentes a antibióticos\n“A disseminação de bactérias resistentes a antibióticos é um pesadelo mundial. Ela avança rapidamente e representa uma ameaça a uma das maiores conquistas da medicina moderna: a capacidade de eliminar infecções. Sem antibióticos eficientes, fica quase impossível realizar cirurgias, transplantes e outros tratamentos em segurança.\nExpostas à concentração adequada dos antibióticos e por tempo suficiente, as bactérias facilmente morrem. Se a dosagem e duração do tratamento forem inferiores ao necessário para aniquilá-las, uma parte pode sobreviver e se multiplicar, acumulando alterações no material genético que lhes permitem escapar à ação dos fármacos.\nAs bactérias estão em todos os lugares: na água, no solo, no ar e nas superfícies, inclusive no nosso corpo. Com o uso intensivo de antibióticos na saúde humana e na produção de alimentos, as bactérias são continuamente expostas a esses fármacos. Esse contato favorece a seleção das variedades resistentes.”\nRevista Pesquisa FAPESP – Janeiro/2024 (Adaptado).\nO gráfico a seguir ilustra o crescimento de uma espécie de bactéria em meio de cultura, com e sem antibiótico. Foram testados três antibióticos diferentes (1, 2 e 3).\nConsiderando o texto e o gráfico, sobre a resistência de bactérias a antibióticos, é correto afirmar:",
+  "alternativa_a": "A combinação de mais de um antibiótico durante um tratamento reduz a quantidade de antibióticos lançada na rede de esgoto e as chances de surgirem bactérias mutantes na natureza.",
+  "alternativa_b": "Para reduzir as chances de seleção de bactérias resistentes, é necessário aumentar a concentração de antibióticos presentes na natureza e matar as bactérias patogênicas livres.",
+  "alternativa_c": "Mutações aleatórias que acontecem nas bactérias, associadas à exposição prolongada a antibióticos, contribuem para a seleção de bactérias resistentes a antibióticos.",
+  "alternativa_d": "O antibiótico 3 será eficiente, nas mesmas concentrações utilizadas no experimento, para tratar infecções causadas pelas linhagens de bactérias presentes no dia 16 de cultivo.",
+  "alternativa_e": "Dentre todos os antibióticos testados, o 2 é o mais eficiente para combater a bactéria do experimento relatado, enquanto o 1 é o menos eficiente.",
+  "alternativa_correta": "c"
+}

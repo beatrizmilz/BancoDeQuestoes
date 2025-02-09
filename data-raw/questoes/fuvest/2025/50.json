@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-50",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 50,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Geografia",
+  "temas": "Biomas brasileiros; Vegetação nativa; Erosão do solo",
+  "texto_questao": "Neste bioma, a vegetação nativa apresenta-se intercalada por\nextensas monoculturas de soja e de arroz. Em alguns lugares,\na vegetação campestre original tem sido substituída por\nvegetação florestal, formada por árvores de eucaliptos. Em\nvários locais, observa-se a expansão de grandes areais, em\nque os solos arenosos ficam expostos e suscetíveis a uma\nintensa erosão. Este é o bioma brasileiro menos protegido por\nUnidades de Conservação, embora esteja entre aqueles que\nmais perderam vegetação nativa nas últimas três décadas.\nA descrição da paisagem impactada por ações humanas\nrefere-se ao bioma",
+  "alternativa_a": "Caatinga.",
+  "alternativa_b": "Cerrado.",
+  "alternativa_c": "Mata Atlântica.",
+  "alternativa_d": "Pampas.",
+  "alternativa_e": "Pantanal.",
+  "alternativa_correta": "b"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-65",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 65,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Química",
+  "temas": "Sustentabilidade ambiental; Energia limpa; Caldo de cana",
+  "texto_questao": "De acordo com o texto, a pesquisa com caldo de cana apresentou resultados promissores em relação à sustentabilidade ambiental, porque",
+  "alternativa_a": "o caldo in natura é obtido com facilidade, demandando somente a utilização das moendas, o que barateia os custos do processo.",
+  "alternativa_b": "a energia elétrica proveniente da célula a combustível é considerada limpa, já que esse dispositivo dispensa o uso de pilhas, cujo descarte constitui um problema ambiental.",
+  "alternativa_c": "a vinhaça, resíduo danoso ao meio ambiente, deixa de ser produzida ao se evitar a transformação do caldo de cana em álcool.",
+  "alternativa_d": "a célula a combustível se destaca pela economia energética gerada ao funcionar como uma pilha, reduzindo a quantidade de caldo de cana utilizada.",
+  "alternativa_e": "o Ipen não produz o caldo de cana em escala industrial, o que diminui a produção da vinhaça poluidora do meio ambiente.",
+  "alternativa_correta": "c"
+}

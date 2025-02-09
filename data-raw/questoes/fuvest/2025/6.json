@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-6",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 6,
+  "imagem_1": "16.png",
+  "imagem_2": "26_a.png",
+  "disciplina": "Filosofia",
+  "temas": "Relações humanas; Consciência; Crítica social",
+  "texto_questao": "Leia o texto e analise a charge a seguir.\n“Se, compreendendo um outro ser humano, penetro profundamente no horizonte do que lhe é próprio, então logo me depararei com o fato de que, assim como o seu corpo se encontra no meu campo de percepção, também o meu corpo se encontra no dele, e que, em geral, ele me experiencia sem mais como um outro para ele, tal como eu o experiencio como outro para mim.”\n    HUSSERL, E. Meditações cartesianas. Rio de Janeiro: Forense Universitária, 2013.\nBira Dantas. Disponível em https://facebook.com/.\nO filósofo Edmund Husserl propõe uma reflexão sobre como cada pessoa estabelece relações com as outras. Ocorre uma equiparação dos pontos de vista, de modo que cada uma aparecerá às demais não como uma consciência incomparável, mas justamente como uma outra pessoa. Essa ideia ajuda a entender a perspectiva crítica contida na charge: certas condições ou características que percebemos como depreciativas em outras pessoas também podem ser percebidas da mesma maneira pelos outros em nós.\nQual situação reproduz essa estrutura de equiparação exibida na charge?",
+  "alternativa_a": "Torcedores de diversos times de futebol se reúnem desanimados para assistir a um jogo da seleção.",
+  "alternativa_b": "Religiosos conservadores sugerem banir livros eróticos doados por desconhecidos para a sua comunidade.",
+  "alternativa_c": "Com medo da violência, um homem passa a andar armado na rua e assusta os transeuntes.",
+  "alternativa_d": "Um homem acusa uma mulher de racismo e algumas testemunhas confirmam a versão dele para a polícia.",
+  "alternativa_e": "Um trabalhador denuncia ao chefe um colega por assédio moral, mas esse último não é punido.",
+  "alternativa_correta": "c"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-78",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 78,
+  "imagem_1": "78.png",
+  "imagem_2": null,
+  "disciplina": "Matemática; Português",
+  "temas": "Comicidade em cartum; Ensino de matemática",
+  "texto_questao": "Disponível em https://andertoons.com/math/cartoon/7359/. Contribui para o efeito de comicidade do cartum a",
+  "alternativa_a": "atitude do docente diante da apatia do grupo, incapaz de produzir uma resposta.",
+  "alternativa_b": "certeza do aluno em seu argumento, desafiando a autoridade do professor.",
+  "alternativa_c": "interpretação por parte do discente de símbolos matemáticos ligados à teoria dos conjuntos.",
+  "alternativa_d": "adoção pelo professor de duas formas semelhantes e eficazes de resolver a mesma equação.",
+  "alternativa_e": "rivalidade entre os colegas para determinar quem possui mais conhecimento.",
+  "alternativa_correta": "a"
+}

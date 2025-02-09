@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-10",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 10,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Filosofia",
+  "temas": "Cultura do Cancelamento; Ética e Moral",
+  "texto_questao": "Segundo o texto, a cultura do “cancelamento”",
+  "alternativa_a": "busca punir transgressões a valores morais caros aos canceladores com danos à vida econômica do cancelado.",
+  "alternativa_b": "aplica os instrumentos coercitivos do direito penal ao contexto da internet para impedir o crescimento profissional do cancelado.",
+  "alternativa_c": "é uma resposta natural à emergência de movimentos sociais que lutam por respeito à diversidade e por mais poder econômico.",
+  "alternativa_d": "elimina profissionais do mercado com o objetivo de desmoralizar as empresas contratantes, causando-lhes prejuízos.",
+  "alternativa_e": "visa a aumentar a competição entre as empresas, que se valem do cancelamento para eliminar valores morais que consideram irresponsáveis.",
+  "alternativa_correta": "c"
+}

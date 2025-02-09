@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-45",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 45,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Matemática",
+  "temas": "Expectativa de vida; Média aritmética",
+  "texto_questao": "Considere que a expectativa de vida no Brasil à idade de 19 anos pode ser calculada, de forma aproximada, como a média aritmética simples entre a expectativa de vida estimada à mesma idade dos homens e das mulheres. O mesmo pode ser feito à idade de 20 anos. \n Segundo dados do IBGE, em 2022, a expectativa de vida estimada no Brasil à idade de 19 anos era 58, e a expectativa de vida estimada dos homens à mesma idade era 54,7. \n Sabe-se que a diferença entre a expectativa de vida estimada dos homens e a das mulheres se manteve à idade de 20 anos e que a expectativa de vida estimada dos homens a essa idade (EVH20) era 53,8. \n Com base nos dados apresentados, assinale a alternativa que apresenta a expectativa de vida estimada das mulheres à idade de 19 anos (EVM19) e a expectativa de vida estimada à idade de 20 anos no Brasil (EVB20) em 2022. \n EVM19                               EVB20",
+  "alternativa_a": "54,7                                54,7",
+  "alternativa_b": "54,7                                 58",
+  "alternativa_c": "60                                  54",
+  "alternativa_d": "61,3                                 56",
+  "alternativa_e": "61,3                               57,1",
+  "alternativa_correta": "e"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-43",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 43,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Literatura",
+  "temas": "Alguma poesia - Carlos Drummond de Andrade",
+  "texto_questao": "Carlos Drummond de Andrade foi o criador de uma obra lírica que, ao mesmo tempo, se aproxima e se afasta do Modernismo de 1922, propondo, a partir de traços desse movimento, uma poética original. Com base no exposto, em Alguma poesia (1930),",
+  "alternativa_a": "os aspectos prosaicos da linguagem modernista ganham expressão lírica a partir de um sujeito poético que repropõe, em versos livres, a nostalgia romântica da infância idealizada.",
+  "alternativa_b": "o sujeito poético incorpora, sob a perspectiva de uma lírica de raiz subjetiva, vários procedimentos estilísticos das vanguardas modernistas, em especial a escrita automática e o surrealismo.",
+  "alternativa_c": "a tópica literária do desconcerto do mundo ganha uma reconfiguração moderna, a partir de um sujeito poético que, mais do que revelar um mundo às avessas, focaliza o seu desajuste frente à realidade.",
+  "alternativa_d": "o nacionalismo literário, tão típico da revisão empreendida pela primeira geração modernista sobre a realidade brasileira, apresenta-se como eixo temático de cunho ufanista.",
+  "alternativa_e": "a paisagem mineira, no espaço literário, é configurada pelo sujeito poético como ambiente bucólico e refúgio privilegiado para os seus desajustes frente ao “vasto mundo”.",
+  "alternativa_correta": "c"
+}

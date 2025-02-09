@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-60",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 60,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Física",
+  "temas": "Corrosão; Propriedades dos materiais",
+  "texto_questao": "As massas de duas barras, uma de ferro e outra de aço inoxidável, armazenadas em um mesmo ambiente úmido e na presença de oxigênio, foram monitoradas ao longo do tempo. Assinale a alternativa que representa a variação das massas de ambas as barras ao longo do tempo.",
+  "alternativa_a": "A massa do ferro aumenta e a massa do aço inoxidável se mantém constante.",
+  "alternativa_b": "A massa do ferro se mantém constante e a massa do aço inoxidável aumenta.",
+  "alternativa_c": "A massa do ferro diminui e a massa do aço inoxidável se mantém constante.",
+  "alternativa_d": "A massa do ferro diminui e a massa do aço inoxidável aumenta.",
+  "alternativa_e": "A massa do ferro se mantém constante e a massa do aço inoxidável diminui.",
+  "alternativa_correta": "c"
+}

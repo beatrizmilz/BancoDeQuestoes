@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-86",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 86,
+  "imagem_1": "86.png",
+  "imagem_2": null,
+  "disciplina": "Arte",
+  "temas": "O Mamoeiro - Tarsila do Amaral",
+  "texto_questao": "No texto intitulado Tarsila, a pesquisadora Aracy Amaral transcreve um trecho das impressões de Tarsila do Amaral sobre a viagem às cidades históricas coloniais mineiras, que realizara em 1924 com o grupo modernista, liderado por Mário de Andrade: “(...) As decorações murais de um modesto corredor de hotel; o forro das salas, feito de taquarinhas coloridas e trançadas; as pinturas das igrejas, simples e comoventes, executadas com amor e devoção por artistas anônimos; o Aleijadinho, nas suas estátuas e nas linhas geniais da sua arquitetura religiosa, tudo era motivo para as nossas exclamações admirativas. Encontrei em Minas as cores que adorava em criança. Ensinaram-me depois que eram feias e caipiras. Segui o ramerrão do gosto apurado... Mas depois vingi-me da opressão passando-as para as minhas telas: azul puríssimo, rosa violáceo, amarelo vivo, verde cantante, tudo em gradações mais ou menos fortes, conforme a mistura de branco. Pintura limpa, sobretudo, sem medo de cânones convencionais. Liberdade e sinceridade, uma certa estilização que a adaptava à época moderna.” \n AMARAL, Tarsila, 1939. Apud AMARAL, Aracy. Tarsila, In: Tarsila do Amaral. São Paulo: Fundação Finambras, s.d, p.4. Considerando a obra O Mamoeiro, de Tarsila do Amaral, qual é o principal elemento que caracteriza a influência do movimento modernista brasileiro na pintura?",
+  "alternativa_a": "O emprego de recursos pictóricos que realçam os efeitos de luz e sombra na cena retratada.",
+  "alternativa_b": "A representação de aspectos da cultura brasileira, valorizando uma paisagem local.",
+  "alternativa_c": "A simplificação de formas geométricas abstratas.",
+  "alternativa_d": "A inspiração na arte africana e na produção simbólica de povos originários.",
+  "alternativa_e": "A incorporação da colagem e de técnicas mistas como procedimentos artísticos centrais.",
+  "alternativa_correta": "b"
+}

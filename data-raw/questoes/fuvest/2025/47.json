@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-47",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 47,
+  "imagem_1": "47.png",
+  "imagem_2": null,
+  "disciplina": "Biologia",
+  "temas": "Saúde pública; Nutrição; Doenças crônicas",
+  "texto_questao": "A figura a seguir representa os níveis médios de consumo de gordura saturada na dieta para adultos com idade ≥20 anos.\n\n\n<IMAGEM>. \n\nMICHA, R. et al., (2014). British Medical Journal, v. 348. g2272. DOI: 10.1136/bmj.g2272. \nConsiderando apenas os dados da figura, os habitantes da Austrália e da Rússia apresentam maiores riscos de desenvolver doenças",
+  "alternativa_a": "renais.",
+  "alternativa_b": "respiratórias.",
+  "alternativa_c": "cardiovasculares.",
+  "alternativa_d": "cerebrais.",
+  "alternativa_e": "neuromusculares.",
+  "alternativa_correta": "c"
+}

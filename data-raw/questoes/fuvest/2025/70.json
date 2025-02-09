@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-70",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 70,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Matemática",
+  "temas": "Progressão Aritmética; Sequências Numéricas",
+  "texto_questao": "Seja 𝑎 uma progressão aritmética cujo primeiro termo é 𝑎 e a razão 𝑟, ambos números reais. É possível construir uma outra sequência 𝑏 , em que o primeiro termo é um número real 𝑏 e com a seguinte lei de formação \n                          𝑏         𝑏     𝑎 ,\nsendo 𝑛         0 um número natural.\nPor exemplo, se 𝑏         0 e\n                      𝑎         1,3,5,7,9,11, … ,\ntem-se\n                      𝑏         0,1,4,9,16,25, … .\nCom base em tais informações, os valores de 𝑎 e 𝑟 foram escolhidos de forma que 𝑏 também seja uma progressão aritmética de razão 𝑟′. Nessas condições, é correto afirmar:",
+  "alternativa_a": "𝑟′     𝑎",
+  "alternativa_b": "𝑟′     2𝑎",
+  "alternativa_c": "𝑟′     𝑟",
+  "alternativa_d": "𝑟′     2𝑟",
+  "alternativa_e": "𝑟      𝑏      𝑎",
+  "alternativa_correta": "d"
+}

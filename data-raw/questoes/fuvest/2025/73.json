@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-73",
+  "validado": false,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 73,
+  "imagem_1": "73-74.png",
+  "imagem_2": null,
+  "disciplina": "Química",
+  "temas": "Gases Ideais; Reações Químicas; Pressão e Temperatura",
+  "texto_questao": "Suponha que a reação produza 2 mols de CO₂ para cada 3 litros de vinagre. Nas condições do experimento, em que o volume de líquido é 1/3 de litro à temperatura T = 300 K, a pressão PCO₂ medida pelo manômetro será por volta de\n\n(A) 3,2 atm.\n(B) 4,1 atm.\n(C) 6,2 atm.\n(D) 9,0 atm.\n(E) 12 atm.\n\nNote e adote:\nConsidere o CO₂ como um gás ideal.\nConstante dos gases ideais: R = 0,08 atm.L/(K.mol).\nAssuma que todo o ácido acético do vinagre reagiu com o bicarbonato de sódio e que o líquido resultante da reação ocupa aproximadamente o mesmo volume do vinagre antes da reação (Vvin).",
+  "alternativa_a": "3,2 atm.",
+  "alternativa_b": "4,1 atm.",
+  "alternativa_c": "6,2 atm.",
+  "alternativa_d": "9,0 atm.",
+  "alternativa_e": "12 atm.",
+  "alternativa_correta": "c"
+}
