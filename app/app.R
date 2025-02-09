@@ -100,7 +100,7 @@ server <- function(input, output) {
   output$texto_questoes <- shiny::renderText({
    dados_com_enunciado <- dados() |>
       dplyr::mutate(
-        enunciado = glue::glue("{numero_questao}) ({vestibular} - {ano}) <br> {texto_questao} <br><br> a) {alternativa_a} <br> b) {alternativa_b} <br> c) {alternativa_c} <br> d) {alternativa_d} <br> e) {alternativa_e}")
+        enunciado = glue::glue("{numero_questao}) ({vestibular} - {ano}) <br> <br> {texto_questao} <br><br> a) {alternativa_a} <br> b) {alternativa_b} <br> c) {alternativa_c} <br> d) {alternativa_d} <br> e) {alternativa_e} <br><br> <a href='{url_github}' target='_blank'>Sugerir alteração</a>")
       )
 
 
