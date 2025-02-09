@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-31",
+  "validado": true,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 31,
+  "imagem_1": null,
+  "imagem_2": null,
+  "disciplina": "Biologia",
+  "temas": "Relações ecológicas; Recifes de corais; Impactos das mudanças climáticas",
+  "texto_questao": "Alguns corais contêm, em sua estrutura, algas fornecedoras de carboidratos que auxiliam no crescimento e na construção do esqueleto do coral. Os corais, por sua vez, fornecem um ambiente de proteção e importantes nutrientes às algas. As mudanças climáticas globais têm provocado a morte dessas algas e, em muitos casos, a morte dos corais.\nAssinale a alternativa que representa a relação ecológica entre os corais e as algas, assim como o impacto imediato causado pela morte dos corais.",
+  "alternativa_a": "Relação ecológica: Predação; Impacto imediato: Formação das marés vermelhas e desoxigenação das águas oceânicas.",
+  "alternativa_b": "Relação ecológica: Mutualismo; Impacto imediato: Perda de habitat para diversas espécies marinhas, assim como diminuição de suas fontes de proteção e alimento.",
+  "alternativa_c": "Relação ecológica: Colônia;  Impacto imediato: Aumento de habitats e nichos ecológicos para espécies que passam a viver no local antes ocupado pelos corais.",
+  "alternativa_d": "Relação ecológica: Competição;  Impacto imediato: Invasão biológica por espécies que ocupam o nicho deixado vago pelos corais.",
+  "alternativa_e": "Relação ecológica: Comensalismo; Impacto imediato: Enriquecimento das águas oceânicas por cálcio e nitrogênio, favorecendo o desenvolvimento de algas marinhas.",
+  "alternativa_correta": "b"
+}
