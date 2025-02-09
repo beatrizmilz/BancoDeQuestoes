@@ -40,7 +40,7 @@ ui <- bslib::page_sidebar(
   tags$head(
     tags$style(HTML(
       "img{
-        max-width: 50%;
+        max-width: 40%;
         height: auto;
         display: block;
         margin-left: auto;
@@ -109,7 +109,7 @@ server <- function(input, output) {
       dplyr::mutate(
         texto_questao = stringr::str_replace(texto_questao, "\n", "<br>"),
         texto_questao = stringr::str_replace(texto_questao, "\\{imagem_1\\}", glue::glue("<br> <img src='{url_github_base}/images/{imagem_1}?raw=true'><br>")),
-        enunciado = glue::glue("{numero_questao}) ({vestibular} - {ano}) <br> <br> {texto_questao} <br><br> a) {alternativa_a} <br> b) {alternativa_b} <br> c) {alternativa_c} <br> d) {alternativa_d} <br> e) {alternativa_e} <br><br> <a href='{url_github}' target='_blank'>Sugerir alteração</a>")
+        enunciado = glue::glue("{numero_questao}) ({vestibular} - {ano}) <br> <br> {texto_questao} <br><br> <b>a)</b> {alternativa_a} <br> <b>b)</b> {alternativa_b} <br> <b>c)</b> {alternativa_c} <br> <b>d)</b> {alternativa_d} <br> <b>e)</b> {alternativa_e} <br><br> <a href='{url_github}' target='_blank'>Sugerir alteração</a>")
       )
 
 

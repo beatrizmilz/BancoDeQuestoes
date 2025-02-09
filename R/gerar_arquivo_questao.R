@@ -33,7 +33,7 @@ gerar_arquivo_questao_multipla_escolha <- function(df_texto) {
 resultado_completo <- list(
   id = df_texto$id_questao,
   validado = FALSE,
-  vestibular =  df_texto$prova,
+  vestibular =  stringr::str_to_upper(df_texto$prova),
   ano = readr::parse_number(df_texto$ano),
   questao_tipo = "multipla_escolha",
   questao_numero = df_texto$questao,

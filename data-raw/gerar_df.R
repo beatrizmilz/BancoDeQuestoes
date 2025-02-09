@@ -7,11 +7,10 @@ questoes_json <- list.files(
 
 lista_json <- purrr::map(questoes_json, jsonlite::fromJSON)
 
-questoes <- lista_json |>
+questoes_preparadas <- lista_json |>
   purrr::map(purrr::compact) |>
   purrr::map(tibble::as_tibble) |>
   purrr::list_rbind() |>
-  dplyr::filter(validado %in% c("TRUE", TRUE)) |>
   dplyr::mutate(
     url_github_base = glue::glue(
       "https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/{stringr::str_to_lower(vestibular)}/{ano}"
@@ -20,6 +19,14 @@ questoes <- lista_json |>
       "{url_github_base}/{questao_numero}.json"
     )
   )
+
+questoes <- questoes_preparadas |>
+  dplyr::filter(validado == TRUE)
+
+questoes_para_validar <- questoes_preparadas |>
+  dplyr::filter(validado == FALSE)
+
+usethis::ui_info("Existem {nrow(questoes_para_validar)} questões para validar: {paste0(questoes_para_validar$id, collapse = ', ')} ")
 
 questoes
 
