@@ -17,16 +17,19 @@ gerar_arquivo_questao_por_pagina <- function(path) {
     tibble::as_tibble() |>
     dplyr::mutate(
       questao = stringr::str_extract(value, "\\{.*[0-9]+\\}"),
-      questao = readr::parse_number(questao),
-      prova = prova_ano[1],
-      ano = prova_ano[2],
-      caminho_prova = glue::glue("data-raw/questoes/{prova}/{ano}")
+      questao = readr::parse_number(questao)
     ) |>
     tidyr::fill(questao, .direction = "down") |>
     dplyr::filter(!questao %in% extraidos_anteriormente) |>
-    dplyr::group_by(prova, ano, questao, caminho_prova) |>
+    dplyr::group_by(questao) |>
     dplyr::summarise(texto = paste(value, collapse = "\n")) |>
     dplyr::ungroup() |>
+    dplyr::mutate(
+      prova = prova_ano[1],
+      ano = prova_ano[2],
+      caminho_prova = glue::glue("data-raw/questoes/{prova}/{ano}"),
+      id_questao = paste(prova, ano, questao, sep = "-")
+    ) |>
     dplyr::group_split(questao)
 
   purrr::map(df_questao, gerar_arquivo_questao_multipla_escolha)

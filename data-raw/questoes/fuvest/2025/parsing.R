@@ -13,25 +13,25 @@ pasta <- dirname(arquivo)
 # Parte  1 - Transformar PDF em txt
 # Isso é necessário ver manualmente.
 # TODO: Descobrir alguma forma de automatizar isso.
-paginas_1_coluna <- c(2, 12)
-
-numero_de_paginas <- pdftools::pdf_length(arquivo)
-
-# As páginas de 2 colunas são as que não estão nas páginas de 1 coluna.
-paginas_2_colunas <- c(2:numero_de_paginas) |>
-  purrr::discard(~ .x %in% paginas_1_coluna)
-
-# Transformar as páginas de 2 colunas em texto.
-purrr::map(
-  paginas_2_colunas,
-  ~ transformar_pagina_pdf_2_colunas_em_txt(arquivo, page = .x)
-)
-
-# Transformar as páginas de 1 coluna em texto.
-purrr::map(
-  paginas_1_coluna,
-  ~ transformar_pagina_pdf_1_colunas_em_txt(arquivo, page = .x)
-)
+# paginas_1_coluna <- c(2, 12)
+#
+# numero_de_paginas <- pdftools::pdf_length(arquivo)
+#
+# # As páginas de 2 colunas são as que não estão nas páginas de 1 coluna.
+# paginas_2_colunas <- c(2:numero_de_paginas) |>
+#   purrr::discard(~ .x %in% paginas_1_coluna)
+#
+# # Transformar as páginas de 2 colunas em texto.
+# purrr::map(
+#   paginas_2_colunas,
+#   ~ transformar_pagina_pdf_2_colunas_em_txt(arquivo, page = .x)
+# )
+#
+# # Transformar as páginas de 1 coluna em texto.
+# purrr::map(
+#   paginas_1_coluna,
+#   ~ transformar_pagina_pdf_1_colunas_em_txt(arquivo, page = .x)
+# )
 
 # Parte 2 - Transformar txt em json
 
@@ -44,7 +44,7 @@ arquivos_txt <- tibble::tibble(arquivos = as.character(fs::dir_ls(pasta)),
   )
 
 purrr::map(
-  arquivos_txt$arquivos[6],
+  arquivos_txt$arquivos[8],
   gerar_arquivo_questao_por_pagina,
   .progress = TRUE
 )

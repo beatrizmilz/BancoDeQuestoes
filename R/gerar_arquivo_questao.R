@@ -13,26 +13,13 @@ gerar_arquivo_questao_multipla_escolha <- function(df_texto) {
     dplyr::mutate(value = basename(value)) |>
     dplyr::pull(value)
 
-  texto_para_ia <- glue::glue("{df_texto$texto}
-                              Arquivo de imagens: {imagens}")
-
-
 
   result <- chat$extract_data(
-    texto_para_ia,
+    df_texto$texto,
     type = ellmer::type_object(
       "Questão da prova FUVEST.",
-      id = ellmer::type_string("Identificador único da questão."),
-     validado = ellmer::type_enum("Se a questão foi validada. Isso é feito posteriormente.", c("FALSE")),
-      vestibular = ellmer::type_string("Nome do vestibular."),
-      ano = ellmer::type_integer("Ano da prova."),
-      prova = ellmer::type_string("Versão da prova."),
-      questao_tipo = ellmer::type_string("Tipo da questão."),
-      questao_numero = ellmer::type_string("Número da questão."),
       disciplina = ellmer::type_string("Disciplina da questão."),
       temas = ellmer::type_string("Temas da questão."),
-      imagem_1 = ellmer::type_string("Nome da imagem 1 (caso exista)."),
-      imagem_2 = ellmer::type_string("Nome da imagem 2 (caso exista)."),
       texto_questao = ellmer::type_string("Texto da questão."),
       alternativa_a = ellmer::type_string("Texto da Alternativa A."),
       alternativa_b = ellmer::type_string("Texto da Alternativa B."),
@@ -43,9 +30,22 @@ gerar_arquivo_questao_multipla_escolha <- function(df_texto) {
     )
   )
 
+resultado_completo <- list(
+  id = df_texto$id_questao,
+  validado = FALSE,
+  vestibular =  df_texto$prova,
+  ano = readr::parse_number(df_texto$ano),
+  questao_tipo = "multipla_escolha",
+  questao_numero = df_texto$questao,
+  imagem_1 = imagens[1],
+  imagem_2 = imagens[2],
+  result
+) |>
+  purrr::flatten()
+
 
   jsonlite::write_json(
-    result,
+    resultado_completo,
     glue::glue("{df_texto$caminho_prova}/{df_texto$questao}.json"),
     auto_unbox = TRUE,
     pretty = TRUE

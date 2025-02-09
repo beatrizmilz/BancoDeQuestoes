@@ -17,7 +17,6 @@ devtools::load_all()
 # $ id             <chr> "fuvest-2025-04", "fuvest-2025-08"
 # $ vestibular     <chr> "FUVEST", "FUVEST"
 # $ ano            <int> 2025, 2025
-# $ prova          <chr> "v1", "v1"
 # $ questao_tipo   <chr> "multipla_escolha", "multipla_escolha"
 # $ questao_numero <chr> "4", "8"
 # $ disciplina           <chr> "História", "História"
@@ -28,6 +27,13 @@ devtools::load_all()
 # $ alternativa_C  <chr> "pela utilização de picadas abertas pelas com…
 # $ alternativa_D  <chr> "pelo emprego de tropas de muares, responsáve…
 # $ alternativa_E  <chr> "pela exploração do transporte fluvial e marí…
+
+disciplinas_questoes <- questoes |>
+  tidyr::separate_longer_delim(disciplina, delim = ";") |>
+  dplyr::mutate(disciplina = stringr::str_squish(disciplina)) |>
+  dplyr::distinct(disciplina) |>
+  dplyr::arrange(disciplina)
+
 
 # Define UI for application that draws a histogram
 ui <- bslib::page_sidebar(
@@ -56,8 +62,8 @@ ui <- bslib::page_sidebar(
             shinyWidgets::pickerInput(
               input = "disciplina",
               label = "Disciplina",
-              choices = unique(questoes$disciplina),
-              selected = unique(questoes$disciplina)[1]
+              choices = disciplinas_questoes,
+              selected = disciplinas_questoes[1]
             )#,
             # shiny::sliderInput(
             #   inputId = "quantidade_questoes",
@@ -91,7 +97,7 @@ server <- function(input, output) {
 
   dados <- reactive({
     questoes |>
-      dplyr::filter(disciplina == input$disciplina) |>
+      dplyr::filter(stringr::str_detect(disciplina, input$disciplina)) |>
       # dplyr::filter(questao_tipo == input$tipo_questao) |>
       # dplyr::slice_sample(n = input$quantidade_questoes) |>
       dplyr::mutate(numero_questao = dplyr::row_number())
