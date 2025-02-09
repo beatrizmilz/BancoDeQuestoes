@@ -24,9 +24,12 @@ questoes <- questoes_preparadas |>
   dplyr::filter(validado == TRUE)
 
 questoes_para_validar <- questoes_preparadas |>
-  dplyr::filter(validado == FALSE)
+  dplyr::filter(validado == FALSE) |>
+  dplyr::select(id, vestibular, ano, questao_numero, url_github)
 
 usethis::ui_info("Existem {nrow(questoes_para_validar)} questões para validar: {paste0(questoes_para_validar$id, collapse = ', ')} ")
+
+readr::write_csv(questoes_para_validar, "data-raw/questoes_para_validar.csv")
 
 questoes
 
