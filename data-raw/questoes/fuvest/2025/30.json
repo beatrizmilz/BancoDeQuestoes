@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-30",
+  "validado": true,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 30,
+  "imagem_1": "30.png",
+  "imagem_2": null,
+  "disciplina": "Biologia",
+  "temas": "Fragmentação de habitat; Variabilidade genética; Dinâmica de populações",
+  "texto_questao": "A imagem a seguir ilustra o aparecimento de uma barreira que promoveu separação de uma população de rinocerontes e consequente redução no tamanho das populações resultantes. {imagem_1} Disponível em https://kids.frontiersin.org/articles/10.3389/ (Adaptado).\n\nÉ correto afirmar que, nas populações fragmentadas, ocorre",
+  "alternativa_a": "maior variabilidade genética.",
+  "alternativa_b": "maior risco de aparecimento de doenças genéticas recessivas.",
+  "alternativa_c": "menor frequência de mutações.",
+  "alternativa_d": "seleção natural dos indivíduos com características genéticas dominantes.",
+  "alternativa_e": "favorecimento da mistura entre elas.",
+  "alternativa_correta": "b"
+}

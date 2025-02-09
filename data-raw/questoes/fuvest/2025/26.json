@@ -1,0 +1,19 @@
+{
+  "id": "fuvest-2025-26",
+  "validado": true,
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": 26,
+  "imagem_1": "26_a.png",
+  "imagem_2": "26_b.png",
+  "disciplina": "Geografia",
+  "temas": "Rotas marítimas; Comércio mundial; Ártico",
+  "texto_questao": "Atualmente 80% do comércio mundial transita pelos mares, principalmente em rotas que passam pelos Canais do Panamá e de Suez. Com a redução das calotas polares, novas rotas estão surgindo no Ártico. Mesmo com sua fragilidade ambiental, a região passou a ser uma nova fronteira para o comércio mundial. \n\n {imagem_1} {imagem_2} Carto Le monde en cartes, n.59, maio-junho 2020 (Adaptado).\n  Com base no texto, na leitura do mapa e em seus conhecimentos sobre as rotas marítimas, assinale a alternativa correta.",
+  "alternativa_a": "A rota que liga os portos de Murmansk a Churchill é vantajosa em razão da facilidade de acesso e de não interferir na Zona Econômica Exclusiva, evitando conflitos territoriais.",
+  "alternativa_b": "Os percursos advindos das rotas Noroeste e Nordeste possibilitam maior estratégia geopolítica dos países pertencentes à região, que utilizam, para isso, todas as zonas turísticas como sítios para bases militares.",
+  "alternativa_c": "A rota Nordeste, que liga Roterdã a Shangai, aumenta a distância percorrida pelas frotas marítimas e ainda pode ser ameaçada pela ampliação da cobertura de gelo no futuro.",
+  "alternativa_d": "A rota Noroeste, que liga Ásia a América, é percurso já consagrado pelo tráfego marítimo intenso, por sua menor distância e por percorrer muitos portos comerciais e bases militares.",
+  "alternativa_e": "O fluxo comercial possibilitado pelas rotas Noroeste e Nordeste tende a se concentrar no Estreito de Bering, reduzindo a distância a ser percorrida em relação aos trajetos via Canais do Panamá e de Suez.",
+  "alternativa_correta": "e"
+}
