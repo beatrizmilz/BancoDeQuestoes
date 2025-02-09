@@ -1,3 +1,5 @@
+devtools::load_all()
+
 # Listar arquivos json que estão dentro da pasta de questões
 # queremos pegar os arquivos recursivamente (dentro de subpastas)
 questoes_json <- list.files(
@@ -25,20 +27,29 @@ questoes_preparadas <- lista_json |>
   )
 
 # Filtrando as questões validadas
-questoes <- questoes_preparadas |>
-  dplyr::filter(validado == TRUE)
+questoes_multipla_escolha <- questoes_preparadas |>
+  dplyr::filter(validado == TRUE, !is.na(alternativa_correta)) |>
+  dplyr::select(-c(validado, vestibular, ano, url_github_base))
 
 # Criando base de provas
-provas <- questoes |>
+provas <- questoes_preparadas |>
   dplyr::distinct(vestibular, ano, url_github_base) |>
   dplyr::mutate(
     url_pdf_prova = glue::glue("{url_github_base}/prova.pdf"),
     url_pdf_gabarito = glue::glue("{url_github_base}/gabarito.pdf"
   ))
 
-# Usar as bases no pacote
-usethis::use_data(questoes, overwrite = TRUE)
-usethis::use_data(provas, overwrite = TRUE)
+# Salvar -------------------------
+
+con <- conectar_sql()
+
+DBI::dbListTables(con)
+
+DBI::dbWriteTable(con, "questoes_multipla_escolha", questoes_multipla_escolha, overwrite = TRUE)
+
+DBI::dbWriteTable(con, "provas", provas, overwrite = TRUE)
+
+DBI::dbDisconnect(con)
 
 
 # Questões não validadas -------------------------

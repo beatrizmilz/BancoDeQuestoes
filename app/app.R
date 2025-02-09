@@ -6,29 +6,39 @@
 #
 #    https://shiny.posit.co/
 #
-
+# devtools::load_all()
 library(shiny)
-devtools::load_all()
-# library(BancoDeQuestoes)
+con <- DBI::dbConnect(
+    RPostgres::Postgres(),
+    user = "postgres",
+    host = "suddenly-big-reindeer.data-1.use1.tembo.io",
+    port = 5432,
+    password = Sys.getenv("SQL_TEMBO_PASSWORD")
+  )
 
-# > dplyr::glimpse(questoes)
-# Rows: 2
-# Columns: 15
-# $ id             <chr> "fuvest-2025-04", "fuvest-2025-08"
-# $ vestibular     <chr> "FUVEST", "FUVEST"
-# $ ano            <int> 2025, 2025
-# $ questao_tipo   <chr> "multipla_escolha", "multipla_escolha"
-# $ questao_numero <chr> "4", "8"
-# $ disciplina           <chr> "História", "História"
-# $ temas          <chr> "Formação do território brasileiro; Colonizaç…
-# $ texto_questao  <chr> "“E assim como o branco e os mamelucos se apr…
-# $ alternativa_A  <chr> "pela construção de caminhos que os afastasse…
-# $ alternativa_B  <chr> "pela desconsideração das rotas de deslocamen…
-# $ alternativa_C  <chr> "pela utilização de picadas abertas pelas com…
-# $ alternativa_D  <chr> "pelo emprego de tropas de muares, responsáve…
-# $ alternativa_E  <chr> "pela exploração do transporte fluvial e marí…
+questoes_multipla_escolha <- dplyr::tbl(con, "questoes_multipla_escolha") |>
+  dplyr::collect()
 
-disciplinas_questoes <- questoes |>
+
+provas <- dplyr::tbl(con, "provas") |>
+  dplyr::collect()
+
+
+questoes <- questoes_multipla_escolha |>
+  tidyr::separate(
+    id,
+    into = c("vestibular", "ano", "n_questao"),
+    sep = "-",
+    remove = FALSE
+  ) |>
+  dplyr::mutate(
+    vestibular = stringr::str_to_upper(vestibular),
+    ano = as.integer(ano),
+  ) |>
+dplyr::left_join(provas)
+
+
+disciplinas_questoes <- questoes_multipla_escolha |>
   tidyr::separate_longer_delim(disciplina, delim = ";") |>
   dplyr::mutate(disciplina = stringr::str_squish(disciplina)) |>
   dplyr::distinct(disciplina) |>
@@ -36,7 +46,7 @@ disciplinas_questoes <- questoes |>
 
 
 # Define UI for application that draws a histogram
-ui <- bslib::page_sidebar(
+ui <- bslib::page_navbar(
   tags$head(
     tags$style(HTML(
       "img{
@@ -53,6 +63,13 @@ ui <- bslib::page_sidebar(
 
       sidebar = bslib::sidebar(
      #   title = "Filtros",
+        shinyWidgets::pickerInput(
+          input = "prova_vestibular",
+          label = "Vestibular",
+          choices = unique(provas$vestibular),
+          multiple = TRUE,
+          selected = unique(provas$vestibular)
+        ),
             #   shinyWidgets::pickerInput(
             #   input = "tipo_questao",
             #   label = "Tipo de questão",
@@ -76,9 +93,7 @@ ui <- bslib::page_sidebar(
 
         ),
 
-        # Show a plot of the generated distribution
-      bslib::navset_card_underline(
-        title = "Questões",
+        bslib::navset_card_pill(
         bslib::nav_panel(
           title = "Questões",
           shiny::htmlOutput("texto_questoes")
@@ -86,8 +101,11 @@ ui <- bslib::page_sidebar(
         bslib::nav_panel(
           title = "Gabarito",
           shiny::htmlOutput("gabarito")
-        ),
-        )
+        )),
+        bslib::nav_menu(
+        title = "Links",
+        bslib::nav_item(tags$a(shiny::icon("github"), "Código", href = "https://github.com/beatrizmilz/BancoDeQuestoes", target = "_blank"))
+      ),
       )
 
 
@@ -98,6 +116,7 @@ server <- function(input, output) {
   dados <- reactive({
     questoes |>
       dplyr::filter(stringr::str_detect(disciplina, input$disciplina)) |>
+      dplyr::filter(vestibular %in% input$prova_vestibular) |>
       # dplyr::filter(questao_tipo == input$tipo_questao) |>
       # dplyr::slice_sample(n = input$quantidade_questoes) |>
       dplyr::mutate(numero_questao = dplyr::row_number())
@@ -107,10 +126,12 @@ server <- function(input, output) {
   output$texto_questoes <- shiny::renderText({
    dados_com_enunciado <- dados() |>
       dplyr::mutate(
-        texto_questao = stringr::str_replace(texto_questao, "\n", "<br>"),
+        texto_questao = stringr::str_replace_all(texto_questao, "\n", "<br>"),
         texto_questao = stringr::str_replace(texto_questao, "\\{imagem_1\\}", glue::glue("<br> <img src='{url_github_base}/images/{imagem_1}?raw=true'><br>")),
-        enunciado = glue::glue("{numero_questao}) ({vestibular} - {ano}) <br> <br> {texto_questao} <br><br> <b>a)</b> {alternativa_a} <br> <b>b)</b> {alternativa_b} <br> <b>c)</b> {alternativa_c} <br> <b>d)</b> {alternativa_d} <br> <b>e)</b> {alternativa_e} <br><br> <a href='{url_github}' target='_blank'>Sugerir alteração</a>")
+        texto_questao = stringr::str_replace(texto_questao, "\\{imagem_2\\}", glue::glue("<br> <img src='{url_github_base}/images/{imagem_2}?raw=true'><br>")),
+        enunciado = glue::glue("{numero_questao}) ({vestibular} - {ano}) <br> <br> {texto_questao} <br><br> a) {alternativa_a} <br> b) {alternativa_b} <br> c) {alternativa_c} <br> d) {alternativa_d} <br> e) {alternativa_e} <br><br> <a href='{url_github}' target='_blank'>Sugerir alteração</a>")
       )
+
 
 
      paste(dados_com_enunciado$enunciado, collapse = "<br><hr>")
