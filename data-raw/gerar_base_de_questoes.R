@@ -61,7 +61,8 @@ usethis::use_data(questoes_multipla_escolha, overwrite = TRUE)
 # Filtrando as questões não validadas
 questoes_para_validar <- questoes_preparadas |>
   dplyr::filter(validado == FALSE) |>
-  dplyr::select(id, vestibular, ano, questao_numero, url_github)
+  dplyr::select(id, vestibular, ano, questao_numero, url_github) |>
+  dplyr::arrange(vestibular, ano, questao_numero)
 
 usethis::ui_info("Existem {nrow(questoes_para_validar)} questões para validar: {paste0(questoes_para_validar$id, collapse = ', ')} ")
 
