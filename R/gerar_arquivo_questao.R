@@ -9,8 +9,9 @@ gerar_arquivo_questao_multipla_escolha <- function(df_texto) {
   usethis::ui_info("Iniciando extração de dados da questão: {stringr::str_to_upper(df_texto$prova)}/{df_texto$ano}/Questão {df_texto$questao}...")
 
   imagens <- fs::dir_ls(glue::glue("{df_texto$caminho_prova}/images/")) |>   tibble::as_tibble() |>
-    dplyr::filter(stringr::str_detect(value, pattern =   as.character(df_texto$questao))) |>
     dplyr::mutate(value = basename(value)) |>
+    dplyr::filter(
+      stringr::str_detect(value, pattern = glue::glue("^{df_texto$questao}.png"))) |>
     dplyr::pull(value)
 
 
