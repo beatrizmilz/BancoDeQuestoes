@@ -1,0 +1,18 @@
+{
+  "id": "fuvest-2025-24",
+  "validado": "TRUE",
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "prova": "v1",
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": "24",
+  "disciplina": "Química",
+  "temas": "Química do cloreto de sódio; Propriedades físicas e químicas do sal.",
+  "texto_questao": "Na zona sul da cidade de São Paulo, há uma esquina formada pelas ruas Cloreto de Sódio e Relíquia do Oceano. <br> <img src='https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/images/24.png?raw=true'> <br> A coincidência do encontro dessas ruas chama a atenção, pois o cloreto de sódio:",
+  "alternativa_a": "praticamente não está presente no oceano, apesar de este ser salgado.",
+  "alternativa_b": "é insolúvel na água do oceano por apresentar ligação iônica.",
+  "alternativa_c": "utilizado no Brasil é quase todo proveniente do oceano.",
+  "alternativa_d": "obtido do oceano apresenta ligação covalente, enquanto o extraído do sal-gema, ligação iônica.",
+  "alternativa_e": "retirado do oceano tem mais átomos de cloro ligados ao sódio do que o oriundo de outras fontes.",
+  "alternativa_correta": "c"
+}
