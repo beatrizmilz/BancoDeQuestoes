@@ -12,9 +12,9 @@ Para o campo `temas`, separar os temas por `;`.
 
 Para o campo `questao_tipo`, retornar `multipla_escolha`.
 
-Para o campo `disciplina`, as disciplinas são: "Biologia", "Inglês", "Física", "Matemática", "Geografia", "Português", "Química", "História", "Arte", "Educação Física", "Filosofia", "Sociologia".
+Para o campo `disciplina`, as disciplinas são: "Biologia", "Inglês", "Física", "Matemática", "Geografia", "Português", "Química", "História", "Arte", "Educação Física", "Filosofia", "Sociologia", "Literatura". Caso a questão seja interdisciplinar, o campo `disciplina` deve ser preenchido com as disciplinas separadas por `;`.
 
-Caso a questão seja interdisciplinar, o campo `disciplina` deve ser preenchido com as disciplinas separadas por `;`.
+Para questões da disciplina "Literatura", o campo `temas` deve ser preenchido com o nome da obra literária abordada na questão. 
 
 
 IMPORTANTE: Algumas questões apresentam textos após as alternativas, como por exemplo "Note e adote: ...". Isso deve ser considerado parte do enunciado, e adicionado ao final do texto da questão.
