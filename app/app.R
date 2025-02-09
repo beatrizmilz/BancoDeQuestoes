@@ -19,7 +19,6 @@ devtools::load_all()
 # $ prova          <chr> "v1", "v1"
 # $ questao_tipo   <chr> "multipla_escolha", "multipla_escolha"
 # $ questao_numero <chr> "4", "8"
-# $ imagem         <lgl> FALSE, FALSE
 # $ disciplina           <chr> "História", "História"
 # $ temas          <chr> "Formação do território brasileiro; Colonizaç…
 # $ texto_questao  <chr> "“E assim como o branco e os mamelucos se apr…

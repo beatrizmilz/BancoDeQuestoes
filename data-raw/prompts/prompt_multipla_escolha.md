@@ -4,7 +4,7 @@ Você receberá um arquivo de texto com as questões da prova, cada questão é 
 
 Retorne apenas as questões que estiverem completas, ou seja, que tenham enunciado e alternativas.
 
-Se a questão tiver imagens, você deve ignorá-las, mas adicione um <IMAGEM> no lugar. Caso tenha imagens, o campo `imagem` deve ser preenchido com `yes`, caso contrário, `no`.
+Se a questão tiver imagens, você deve ignorá-las, mas adicione um <IMAGEM> no lugar. 
 
 Para o campo `validado`, sempre retornar `no`.
 
