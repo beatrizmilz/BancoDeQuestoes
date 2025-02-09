@@ -20,7 +20,7 @@ devtools::load_all()
 # $ questao_tipo   <chr> "multipla_escolha", "multipla_escolha"
 # $ questao_numero <chr> "4", "8"
 # $ imagem         <lgl> FALSE, FALSE
-# $ area           <chr> "História", "História"
+# $ disciplina           <chr> "História", "História"
 # $ temas          <chr> "Formação do território brasileiro; Colonizaç…
 # $ texto_questao  <chr> "“E assim como o branco e os mamelucos se apr…
 # $ alternativa_A  <chr> "pela construção de caminhos que os afastasse…
@@ -41,15 +41,14 @@ ui <- fluidPage(
               shinyWidgets::pickerInput(
               input = "tipo_questao",
               label = "Tipo de questão",
-              choices = c("Múltipla escolha" = "multipla_escolha",
-                          "Dissertativa" = "dissertativa"),
+              choices = c("Múltipla escolha" = "multipla_escolha"),
               selected = "multipla_escolha"
             ),
             shinyWidgets::pickerInput(
               input = "disciplina",
               label = "Disciplina",
-              choices = unique(questoes$area),
-              selected = unique(questoes$area)[1]
+              choices = unique(questoes$disciplina),
+              selected = unique(questoes$disciplina)[1]
             ),
             shiny::sliderInput(
               inputId = "quantidade_questoes",
@@ -77,7 +76,7 @@ server <- function(input, output) {
 
   dados <- reactive({
     questoes |>
-      dplyr::filter(area == input$disciplina) |>
+      dplyr::filter(disciplina == input$disciplina) |>
       dplyr::filter(questao_tipo == input$tipo_questao) |>
       dplyr::slice_sample(n = input$quantidade_questoes) |>
       dplyr::mutate(numero_questao = dplyr::row_number())
@@ -87,7 +86,7 @@ server <- function(input, output) {
   output$texto_questoes <- shiny::renderText({
    dados_com_enunciado <- dados() |>
       dplyr::mutate(
-        enunciado = glue::glue("{numero_questao}) ({vestibular} - {ano}) <br> {texto_questao}: <br><br> a) {alternativa_A} <br> b) {alternativa_B} <br> c) {alternativa_C} <br> d) {alternativa_D} <br> e) {alternativa_E}")
+        enunciado = glue::glue("{numero_questao}) ({vestibular} - {ano}) <br> {texto_questao} <br><br> a) {alternativa_a} <br> b) {alternativa_b} <br> c) {alternativa_c} <br> d) {alternativa_d} <br> e) {alternativa_e}")
       )
 
 

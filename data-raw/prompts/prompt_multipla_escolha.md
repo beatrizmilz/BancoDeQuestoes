@@ -4,7 +4,9 @@ Você receberá um arquivo de texto com as questões da prova, cada questão é 
 
 Retorne apenas as questões que estiverem completas, ou seja, que tenham enunciado e alternativas.
 
-Se a questão tiver imagens, você deve ignorá-las, mas adicione um <IMAGEM> no lugar. Caso tenha imagens, o campo `imagem` deve ser preenchido com `TRUE`, caso contrário, `FALSE`.
+Se a questão tiver imagens, você deve ignorá-las, mas adicione um <IMAGEM> no lugar. Caso tenha imagens, o campo `imagem` deve ser preenchido com `yes`, caso contrário, `no`.
+
+Para o campo `validado`, sempre retornar `no`.
 
 Para o campo `temas`, separar os temas por `;`.
 
@@ -24,6 +26,7 @@ Exemplo de saída:
 [
   {
     "id": "fuvest-2025-04",
+    "validado": "no",
     "vestibular": "FUVEST",
     "ano": 2025,
     "prova": "v1",
