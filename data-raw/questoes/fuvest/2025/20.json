@@ -1,0 +1,18 @@
+{
+  "id": "fuvest-2025-20",
+  "validado": "FALSE",
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "prova": "v1",
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": "20",
+  "disciplina": "Química",
+  "temas": "Modelos atômicos; Estruturas atômicas",
+  "texto_questao": "A figura a seguir apresenta a evolução dos modelos atômicos, desde o primeiro, proposto por Dalton em 1803, até o de Bohr, proposto em 1913. Sobre os quatro modelos atômicos apresentados, é correto afirmar:",
+  "alternativa_a": "Todos os modelos previram a presença de cargas positivas no núcleo atômico.",
+  "alternativa_b": "O modelo proposto por Thomson, por prever a existência de nêutrons, não poderia explicar a radiação alfa (α).",
+  "alternativa_c": "Diferentemente do modelo de Dalton, o modelo de Rutherford não explica a estrutura de cátions e ânions.",
+  "alternativa_d": "Apenas o modelo de Bohr, com o advento de balanças de precisão, considerou a diferença de massa entre os elementos.",
+  "alternativa_e": "Elementos radioativos não poderiam ser explicados pelo modelo proposto por Dalton.",
+  "alternativa_correta": "e"
+}

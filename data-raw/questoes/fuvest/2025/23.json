@@ -1,0 +1,18 @@
+{
+  "id": "fuvest-2025-23",
+  "validado": "FALSE",
+  "vestibular": "FUVEST",
+  "ano": 2025,
+  "prova": "v1",
+  "questao_tipo": "multipla_escolha",
+  "questao_numero": "23",
+  "disciplina": "Física",
+  "temas": "Buracos Negros; Ondas Eletromagnéticas; Luz Polarizada",
+  "texto_questao": "Com base no texto e em seus conhecimentos, é correto afirmar:",
+  "alternativa_a": "A medida do padrão de polarização da luz mencionada no texto permite somente o mapeamento das linhas de campos magnéticos na direção paralela à direção da polarização.",
+  "alternativa_b": "O olho humano pode discriminar as diferentes direções da luz polarizada dos buracos negros, mapeando suas linhas de campo.",
+  "alternativa_c": "Campos magnéticos como os mencionados no texto são criados apenas por cargas elétricas em repouso no plasma que rodeia os buracos negros.",
+  "alternativa_d": "O plasma é formado por partículas eletricamente carregadas, dado que essas partículas exibem um movimento circular perpendicular à direção do campo magnético.",
+  "alternativa_e": "O processo de mapeamento das linhas de campo magnético mencionado no texto pode ser realizado por meio da detecção de qualquer tipo de onda eletromagnética gerada em buracos negros.",
+  "alternativa_correta": "d"
+}
