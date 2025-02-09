@@ -17,6 +17,8 @@ con <- DBI::dbConnect(
     password = Sys.getenv("SQL_TEMBO_PASSWORD")
   )
 
+questoes_para_validar <- readr::read_csv("https://raw.githubusercontent.com/beatrizmilz/BancoDeQuestoes/refs/heads/main/data-raw/questoes_para_validar.csv")
+
 questoes_multipla_escolha <- dplyr::tbl(con, "questoes_multipla_escolha") |>
   dplyr::collect()
 
@@ -93,7 +95,20 @@ ui <- bslib::page_navbar(
             # )
 
         ),
-
+bslib::layout_columns(min_height = "100px",
+  bslib::value_box(
+    title = "Quantidade de questões cadastradas",
+    value = nrow(questoes),
+    showcase = bsicons::bs_icon("file-check"),
+    showcase_layout = "left center",
+  ),
+    bslib::value_box(
+    title = "Quantidade de questões para validação",
+    value = nrow(questoes_para_validar),
+    showcase = bsicons::bs_icon("file-lock"),
+    showcase_layout = "left center",
+  )
+),
         bslib::navset_card_pill(
         bslib::nav_panel(
           title = "Questões",
