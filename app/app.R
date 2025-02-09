@@ -33,7 +33,7 @@ ui <- bslib::page_sidebar(
   tags$head(
     tags$style(HTML(
       "img{
-        max-width: 30%;
+        max-width: 50%;
         height: auto;
         display: block;
         margin-left: auto;

@@ -1,9 +1,14 @@
 devtools::load_all()
 # Fuvest 2025 --------
 
+
 arquivo <- here::here("data-raw/questoes/fuvest/2025/prova.pdf")
 pasta <- dirname(arquivo)
 
+# Tentar: extrair imagens do PDF, vai facilitar a vida
+
+
+# Parte  1 - Transformar PDF em txt
 # Isso é necessário ver manualmente.
 # TODO: Descobrir alguma forma de automatizar isso.
 paginas_1_coluna <- c(2, 12)
@@ -26,6 +31,7 @@ purrr::map(
   ~ transformar_pagina_pdf_1_colunas_em_txt(arquivo, page = .x)
 )
 
+# Parte 2 - Transformar txt em json
 
 # ler arquivos txt:
 arquivos_txt <- tibble::tibble(arquivos = as.character(fs::dir_ls(pasta))) |>
@@ -35,7 +41,7 @@ arquivos_txt <- tibble::tibble(arquivos = as.character(fs::dir_ls(pasta))) |>
   )
 
 purrr::map(
-  arquivos_txt$arquivos[2],
+  arquivos_txt$arquivos[1],
   gerar_arquivo_questao_por_pagina,
   .progress = TRUE
 )
