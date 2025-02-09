@@ -7,6 +7,12 @@ gerar_arquivo_questao_por_pagina <- function(path) {
     stringr::str_split("/") |>
     unlist()
 
+  extraidos_anteriormente <- dirname(path) |>
+    fs::dir_ls(glob = "*.json") |>
+    basename() |>
+    stringr::str_remove(".json") |>
+    as.numeric()
+
   df_questao <- texto_por_questao |>
     tibble::as_tibble() |>
     dplyr::mutate(
@@ -16,6 +22,7 @@ gerar_arquivo_questao_por_pagina <- function(path) {
       ano = prova_ano[2]
     ) |>
     tidyr::fill(questao, .direction = "down") |>
+    dplyr::filter(!questao %in% extraidos_anteriormente) |>
     dplyr::group_by(prova, ano, questao) |>
     dplyr::summarise(texto = paste(value, collapse = "\n")) |>
     dplyr::ungroup() |>
