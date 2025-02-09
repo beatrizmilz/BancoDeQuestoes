@@ -36,14 +36,15 @@ purrr::map(
 # Parte 2 - Transformar txt em json
 
 # ler arquivos txt:
-arquivos_txt <- tibble::tibble(arquivos = as.character(fs::dir_ls(pasta))) |>
+arquivos_txt <- tibble::tibble(arquivos = as.character(fs::dir_ls(pasta)),
+                               arquivo_nome = basename(arquivos)) |>
   dplyr::filter(
     stringr::str_detect(arquivos, pattern = ".txt"),
     stringr::str_detect(arquivos, pattern = "_pagina-")
   )
 
 purrr::map(
-  arquivos_txt$arquivos[1],
+  arquivos_txt$arquivos[6],
   gerar_arquivo_questao_por_pagina,
   .progress = TRUE
 )

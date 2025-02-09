@@ -9,6 +9,7 @@
 
 library(shiny)
 devtools::load_all()
+# library(BancoDeQuestoes)
 
 # > dplyr::glimpse(questoes)
 # Rows: 2
@@ -101,7 +102,7 @@ server <- function(input, output) {
    dados_com_enunciado <- dados() |>
       dplyr::mutate(
         texto_questao = stringr::str_replace(texto_questao, "\n", "<br>"),
-        texto_questao = stringr::str_replace(texto_questao, "\\{imagem_1\\}", glue::glue("<br> <img src='{url_github_base}/images/{imagem_1}?raw=true'>")),
+        texto_questao = stringr::str_replace(texto_questao, "\\{imagem_1\\}", glue::glue("<br> <img src='{url_github_base}/images/{imagem_1}?raw=true'><br>")),
         enunciado = glue::glue("{numero_questao}) ({vestibular} - {ano}) <br> <br> {texto_questao} <br><br> a) {alternativa_a} <br> b) {alternativa_b} <br> c) {alternativa_c} <br> d) {alternativa_d} <br> e) {alternativa_e} <br><br> <a href='{url_github}' target='_blank'>Sugerir alteração</a>")
       )
 

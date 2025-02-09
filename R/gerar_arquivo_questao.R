@@ -13,8 +13,8 @@ gerar_arquivo_questao_multipla_escolha <- function(df_texto) {
     dplyr::mutate(value = basename(value)) |>
     dplyr::pull(value)
 
-  texto_para_ia <- glue::glue("Imagens: {imagens}
-             Conteúdo: {df_texto$texto}")
+  texto_para_ia <- glue::glue("{df_texto$texto}
+                              Arquivo de imagens: {imagens}")
 
 
 
