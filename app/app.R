@@ -29,46 +29,61 @@ devtools::load_all()
 # $ alternativa_E  <chr> "pela exploração do transporte fluvial e marí…
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(
+ui <- bslib::page_sidebar(
+  tags$head(
+    tags$style(HTML(
+      "img{
+        max-width: 30%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
-    # Application title
-    titlePanel("Gerar lista de questões"),
+      } "
+    ))
+  ),
+      title = "Banco de questões (em construção)",
 
-    # Sidebar with a slider input for number of bins
-    sidebarLayout(
-        sidebarPanel(
-              shinyWidgets::pickerInput(
-              input = "tipo_questao",
-              label = "Tipo de questão",
-              choices = c("Múltipla escolha" = "multipla_escolha"),
-              selected = "multipla_escolha"
-            ),
+      sidebar = bslib::sidebar(
+     #   title = "Filtros",
+            #   shinyWidgets::pickerInput(
+            #   input = "tipo_questao",
+            #   label = "Tipo de questão",
+            #   choices = c("Múltipla escolha" = "multipla_escolha"),
+            #   selected = "multipla_escolha"
+            # ),
             shinyWidgets::pickerInput(
               input = "disciplina",
               label = "Disciplina",
               choices = unique(questoes$disciplina),
               selected = unique(questoes$disciplina)[1]
-            ),
-            shiny::sliderInput(
-              inputId = "quantidade_questoes",
-              label = "Quantidade de questões",
-              value = c(10),
-              min = 1,
-              max = 10,
-              step = 1
-            )
+            )#,
+            # shiny::sliderInput(
+            #   inputId = "quantidade_questoes",
+            #   label = "Quantidade de questões",
+            #   value = c(10),
+            #   min = 1,
+            #   max = 10,
+            #   step = 1
+            # )
 
         ),
 
         # Show a plot of the generated distribution
-        mainPanel(
-          shiny::h2("Questões"),
-          shiny::htmlOutput("texto_questoes"),
-          shiny::h2("Gabarito"),
+      bslib::navset_card_underline(
+        title = "Questões",
+        bslib::nav_panel(
+          title = "Questões",
+          shiny::htmlOutput("texto_questoes")
+        ),
+        bslib::nav_panel(
+          title = "Gabarito",
           shiny::htmlOutput("gabarito")
+        ),
         )
-    )
-)
+      )
+
+
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
@@ -76,8 +91,8 @@ server <- function(input, output) {
   dados <- reactive({
     questoes |>
       dplyr::filter(disciplina == input$disciplina) |>
-      dplyr::filter(questao_tipo == input$tipo_questao) |>
-      dplyr::slice_sample(n = input$quantidade_questoes) |>
+      # dplyr::filter(questao_tipo == input$tipo_questao) |>
+      # dplyr::slice_sample(n = input$quantidade_questoes) |>
       dplyr::mutate(numero_questao = dplyr::row_number())
   })
 
@@ -95,7 +110,7 @@ server <- function(input, output) {
 
   output$gabarito <- shiny::renderText({
     dados() |>
-      dplyr::mutate(texto_gabarito = glue::glue("{numero_questao}:  {alternativa_correta}")) |>
+      dplyr::mutate(texto_gabarito = glue::glue("{numero_questao})  {alternativa_correta}")) |>
       dplyr::pull(texto_gabarito) |>
       paste(collapse = "<br>")
   })
