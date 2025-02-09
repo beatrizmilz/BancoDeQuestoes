@@ -8,9 +8,18 @@ gerar_arquivo_questao_multipla_escolha <- function(df_texto) {
 
   usethis::ui_info("Iniciando extração de dados da questão: {stringr::str_to_upper(df_texto$prova)}/{df_texto$ano}/Questão {df_texto$questao}...")
 
+  imagens <- fs::dir_ls(glue::glue("{df_texto$caminho_prova}/images/")) |>   tibble::as_tibble() |>
+    dplyr::filter(stringr::str_detect(value, pattern =   as.character(df_texto$questao))) |>
+    dplyr::mutate(value = basename(value)) |>
+    dplyr::pull(value)
+
+  texto_para_ia <- glue::glue("Imagens: {imagens}
+             Conteúdo: {df_texto$texto}")
+
+
 
   result <- chat$extract_data(
-    df_texto$texto[1],
+    texto_para_ia,
     type = ellmer::type_object(
       "Questão da prova FUVEST.",
       id = ellmer::type_string("Identificador único da questão."),
@@ -22,6 +31,8 @@ gerar_arquivo_questao_multipla_escolha <- function(df_texto) {
       questao_numero = ellmer::type_string("Número da questão."),
       disciplina = ellmer::type_string("Disciplina da questão."),
       temas = ellmer::type_string("Temas da questão."),
+      imagem_1 = ellmer::type_string("Nome da imagem 1 (caso exista)."),
+      imagem_2 = ellmer::type_string("Nome da imagem 2 (caso exista)."),
       texto_questao = ellmer::type_string("Texto da questão."),
       alternativa_a = ellmer::type_string("Texto da Alternativa A."),
       alternativa_b = ellmer::type_string("Texto da Alternativa B."),
@@ -35,7 +46,7 @@ gerar_arquivo_questao_multipla_escolha <- function(df_texto) {
 
   jsonlite::write_json(
     result,
-    glue::glue("data-raw/questoes/{df_texto$prova}/{df_texto$ano}/{df_texto$questao}.json"),
+    glue::glue("{df_texto$caminho_prova}/{df_texto$questao}.json"),
     auto_unbox = TRUE,
     pretty = TRUE
   )

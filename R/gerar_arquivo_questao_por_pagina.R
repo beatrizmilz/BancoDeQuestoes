@@ -19,11 +19,12 @@ gerar_arquivo_questao_por_pagina <- function(path) {
       questao = stringr::str_extract(value, "\\{.*[0-9]+\\}"),
       questao = readr::parse_number(questao),
       prova = prova_ano[1],
-      ano = prova_ano[2]
+      ano = prova_ano[2],
+      caminho_prova = glue::glue("data-raw/questoes/{prova}/{ano}")
     ) |>
     tidyr::fill(questao, .direction = "down") |>
     dplyr::filter(!questao %in% extraidos_anteriormente) |>
-    dplyr::group_by(prova, ano, questao) |>
+    dplyr::group_by(prova, ano, questao, caminho_prova) |>
     dplyr::summarise(texto = paste(value, collapse = "\n")) |>
     dplyr::ungroup() |>
     dplyr::group_split(questao)
