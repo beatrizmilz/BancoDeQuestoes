@@ -26,6 +26,8 @@ questoes_preparadas <- lista_json |>
     )
   )
 
+usethis::use_data(questoes_preparadas, overwrite = TRUE)
+
 # Filtrando as questões validadas
 questoes_multipla_escolha <- questoes_preparadas |>
   dplyr::filter(validado == TRUE, !is.na(alternativa_correta)) |>

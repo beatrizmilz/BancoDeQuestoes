@@ -16,6 +16,7 @@ Depends:
 LazyData: true
 Imports: 
     DBI,
+    dbplyr,
     dplyr,
     ellmer,
     fs,

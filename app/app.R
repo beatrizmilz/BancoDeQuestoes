@@ -8,6 +8,7 @@
 #
 # devtools::load_all()
 library(shiny)
+library(dbplyr)
 con <- DBI::dbConnect(
     RPostgres::Postgres(),
     user = "postgres",
