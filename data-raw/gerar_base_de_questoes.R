@@ -1,3 +1,5 @@
+# Listar arquivos json que estão dentro da pasta de questões
+# queremos pegar os arquivos recursivamente (dentro de subpastas)
 questoes_json <- list.files(
   "data-raw/questoes",
   full.names = TRUE,
@@ -5,8 +7,10 @@ questoes_json <- list.files(
   pattern = "\\.json$"
 )
 
+# Importar todos os arquivos json
 lista_json <- purrr::map(questoes_json, jsonlite::fromJSON)
 
+# Manipulação para deixar a base de questões pronta
 questoes_preparadas <- lista_json |>
   purrr::map(purrr::compact) |>
   purrr::map(tibble::as_tibble) |>
@@ -20,19 +24,11 @@ questoes_preparadas <- lista_json |>
     )
   )
 
+# Filtrando as questões validadas
 questoes <- questoes_preparadas |>
   dplyr::filter(validado == TRUE)
 
-questoes_para_validar <- questoes_preparadas |>
-  dplyr::filter(validado == FALSE) |>
-  dplyr::select(id, vestibular, ano, questao_numero, url_github)
-
-usethis::ui_info("Existem {nrow(questoes_para_validar)} questões para validar: {paste0(questoes_para_validar$id, collapse = ', ')} ")
-
-readr::write_csv(questoes_para_validar, "data-raw/questoes_para_validar.csv")
-
-questoes
-
+# Criando base de provas
 provas <- questoes |>
   dplyr::distinct(vestibular, ano, url_github_base) |>
   dplyr::mutate(
@@ -40,6 +36,17 @@ provas <- questoes |>
     url_pdf_gabarito = glue::glue("{url_github_base}/gabarito.pdf"
   ))
 
-
+# Usar as bases no pacote
 usethis::use_data(questoes, overwrite = TRUE)
 usethis::use_data(provas, overwrite = TRUE)
+
+
+# Questões não validadas -------------------------
+# Filtrando as questões não validadas
+questoes_para_validar <- questoes_preparadas |>
+  dplyr::filter(validado == FALSE) |>
+  dplyr::select(id, vestibular, ano, questao_numero, url_github)
+
+usethis::ui_info("Existem {nrow(questoes_para_validar)} questões para validar: {paste0(questoes_para_validar$id, collapse = ', ')} ")
+
+readr::write_csv(questoes_para_validar, "data-raw/questoes_para_validar.csv")
