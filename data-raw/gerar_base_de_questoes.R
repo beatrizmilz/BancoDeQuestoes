@@ -54,6 +54,9 @@ DBI::dbWriteTable(con, "provas", provas, overwrite = TRUE)
 DBI::dbDisconnect(con)
 
 
+usethis::use_data(provas, overwrite = TRUE)
+usethis::use_data(questoes_multipla_escolha, overwrite = TRUE)
+
 # Questões não validadas -------------------------
 # Filtrando as questões não validadas
 questoes_para_validar <- questoes_preparadas |>

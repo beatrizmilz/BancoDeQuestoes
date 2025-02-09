@@ -52,14 +52,17 @@ disciplinas_questoes <- questoes_multipla_escolha |>
 ui <- bslib::page_navbar(
   tags$head(
     tags$style(HTML(
-      "img{
+      "img {
         max-width: 40%;
         height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
+      }
 
-      } "
+      cite {
+      text-align: right;
+      }"
     ))
   ),
       title = "Banco de questões (em construção)",
@@ -95,7 +98,8 @@ ui <- bslib::page_navbar(
             # )
 
         ),
-bslib::layout_columns(min_height = "100px",
+bslib::layout_columns(
+  min_height = "100px", fillable = FALSE,
   bslib::value_box(
     title = "Quantidade de questões cadastradas",
     value = nrow(questoes),
@@ -145,7 +149,7 @@ server <- function(input, output) {
         texto_questao = stringr::str_replace_all(texto_questao, "\n", "<br>"),
         texto_questao = stringr::str_replace(texto_questao, "\\{imagem_1\\}", glue::glue("<br> <img src='{url_github_base}/images/{imagem_1}?raw=true'><br>")),
         texto_questao = stringr::str_replace(texto_questao, "\\{imagem_2\\}", glue::glue("<br> <img src='{url_github_base}/images/{imagem_2}?raw=true'><br>")),
-        enunciado = glue::glue("{numero_questao}) ({vestibular} - {ano}) <br> <br> {texto_questao} <br><br> a) {alternativa_a} <br> b) {alternativa_b} <br> c) {alternativa_c} <br> d) {alternativa_d} <br> e) {alternativa_e} <br><br> <a href='{url_github}' target='_blank'>Sugerir alteração</a>")
+        enunciado = glue::glue("{numero_questao}) ({vestibular} - {ano}) <br> <br> {texto_questao} <br><br><br> a) {alternativa_a} <br> b) {alternativa_b} <br> c) {alternativa_c} <br> d) {alternativa_d} <br> e) {alternativa_e} <br><br> <a href='{url_github}' target='_blank'>Sugerir alteração</a>")
       )
 
 
