@@ -1,11 +1,10 @@
 {
   "id": "fuvest-2025-19",
-  "validado": "TRUE",
+  "validado": true,
   "vestibular": "FUVEST",
   "ano": 2025,
-  "prova": "v1",
   "questao_tipo": "multipla_escolha",
-  "questao_numero": "19",
+  "questao_numero": 19,
   "disciplina": "Física",
   "temas": "Efeitos da radiação; Interação da radiação com partículas",
   "imagem_1": "19.png",

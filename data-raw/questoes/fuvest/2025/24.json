@@ -1,11 +1,10 @@
 {
   "id": "fuvest-2025-24",
-  "validado": "TRUE",
+  "validado": true,
   "vestibular": "FUVEST",
   "ano": 2025,
-  "prova": "v1",
   "questao_tipo": "multipla_escolha",
-  "questao_numero": "24",
+  "questao_numero": 24,
   "disciplina": "Química",
   "temas": "Química do cloreto de sódio; Propriedades físicas e químicas do sal.",
   "imagem_1": "24.png",
