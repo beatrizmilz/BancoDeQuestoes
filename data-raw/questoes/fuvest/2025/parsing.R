@@ -34,4 +34,8 @@ arquivos_txt <- tibble::tibble(arquivos = as.character(fs::dir_ls(pasta))) |>
     stringr::str_detect(arquivos, pattern = "_pagina-")
   )
 
-exemplo <- arquivos_txt[1, 1]
+purrr::map(
+  arquivos_txt$arquivos[2],
+  gerar_arquivo_questao_por_pagina,
+  .progress = TRUE
+)
