@@ -1,11 +1,11 @@
-questoes_yaml <- list.files("data-raw/questoes",
+questoes_json <- list.files("data-raw/questoes",
   full.names = TRUE,
-  recursive = TRUE, pattern = "\\.yaml$"
+  recursive = TRUE, pattern = "\\.json$"
 )
 
-lista_yaml <- purrr::map(questoes_yaml, yaml::read_yaml)
+lista_json <- purrr::map(questoes_json, jsonlite::fromJSON)
 
-questoes <- lista_yaml |>
+questoes <- lista_json |>
   purrr::map(tibble::as_tibble) |>
   purrr::list_rbind()
 
