@@ -53,6 +53,18 @@ pasta <- dirname(arquivo)
 
 # Em andamento
 
+porcentagem <- questoes_preparadas |>
+  dplyr::filter(
+    stringr::str_detect(id, "fuvest-2025")
+  ) |>
+  dplyr::count(validado) |>
+  dplyr::mutate(
+    porcentagem = (n / sum(n)) *100
+  ) |>
+  dplyr::filter(validado == TRUE)
+
+barra_de_progresso(porcentagem$porcentagem)
+
 
 # Parte 4 - Double check se as alternativas estão corretas
 
@@ -94,3 +106,6 @@ questoes_para_corrigir <- gabarito_validado |>
   dplyr::filter(questao_correta == FALSE) |>
   dplyr::arrange(questao_numero) |>
   dplyr::select(questao_numero, alternativa)
+
+
+
