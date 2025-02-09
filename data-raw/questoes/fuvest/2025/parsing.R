@@ -44,7 +44,7 @@ arquivos_txt <- tibble::tibble(arquivos = as.character(fs::dir_ls(pasta)),
   )
 
 purrr::map(
-  arquivos_txt$arquivos[8],
+  arquivos_txt$arquivos[2],
   gerar_arquivo_questao_por_pagina,
   .progress = TRUE
 )
