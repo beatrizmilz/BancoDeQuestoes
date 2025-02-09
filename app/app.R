@@ -124,8 +124,11 @@ bslib::layout_columns(
         )),
         bslib::nav_menu(
         title = "Links",
-        bslib::nav_item(tags$a(shiny::icon("github"), "Código", href = "https://github.com/beatrizmilz/BancoDeQuestoes", target = "_blank"))
-      ),
+        bslib::nav_item(tags$a(shiny::icon("github"), "Código", href = "https://github.com/beatrizmilz/BancoDeQuestoes", target = "_blank"),
+       bslib::nav_item(tags$a(shiny::icon("github"), "Como contribuir?", href = "https://github.com/beatrizmilz/BancoDeQuestoes#como-contribuir", target = "_blank")))
+
+
+      )
       )
 
 
