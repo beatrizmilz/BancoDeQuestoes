@@ -1,5 +1,4 @@
 id,vestibular,ano,questao_numero,url_github
-fuvest-2025-3,FUVEST,2025,3,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/3.json
 fuvest-2025-5,FUVEST,2025,5,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/5.json
 fuvest-2025-6,FUVEST,2025,6,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/6.json
 fuvest-2025-7,FUVEST,2025,7,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/7.json
@@ -14,12 +13,7 @@ fuvest-2025-15,FUVEST,2025,15,https://github.com/beatrizmilz/BancoDeQuestoes/blo
 fuvest-2025-16,FUVEST,2025,16,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/16.json
 fuvest-2025-17,FUVEST,2025,17,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/17.json
 fuvest-2025-22,FUVEST,2025,22,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/22.json
-fuvest-2025-29,FUVEST,2025,29,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/29.json
-fuvest-2025-37,FUVEST,2025,37,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/37.json
 fuvest-2025-38,FUVEST,2025,38,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/38.json
-fuvest-2025-41,FUVEST,2025,41,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/41.json
-fuvest-2025-42,FUVEST,2025,42,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/42.json
-fuvest-2025-43,FUVEST,2025,43,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/43.json
 fuvest-2025-44,FUVEST,2025,44,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/44.json
 fuvest-2025-45,FUVEST,2025,45,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/45.json
 fuvest-2025-46,FUVEST,2025,46,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/46.json
@@ -56,14 +50,3 @@ fuvest-2025-76,FUVEST,2025,76,https://github.com/beatrizmilz/BancoDeQuestoes/blo
 fuvest-2025-77,FUVEST,2025,77,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/77.json
 fuvest-2025-78,FUVEST,2025,78,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/78.json
 fuvest-2025-79,FUVEST,2025,79,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/79.json
-fuvest-2025-80,FUVEST,2025,80,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/80.json
-fuvest-2025-81,FUVEST,2025,81,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/81.json
-fuvest-2025-82,FUVEST,2025,82,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/82.json
-fuvest-2025-83,FUVEST,2025,83,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/83.json
-fuvest-2025-84,FUVEST,2025,84,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/84.json
-fuvest-2025-85,FUVEST,2025,85,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/85.json
-fuvest-2025-86,FUVEST,2025,86,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/86.json
-fuvest-2025-87,FUVEST,2025,87,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/87.json
-fuvest-2025-88,FUVEST,2025,88,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/88.json
-fuvest-2025-89,FUVEST,2025,89,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/89.json
-fuvest-2025-90,FUVEST,2025,90,https://github.com/beatrizmilz/BancoDeQuestoes/blob/main/data-raw/questoes/fuvest/2025/90.json
