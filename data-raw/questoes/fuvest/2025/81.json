@@ -1,6 +1,6 @@
 {
   "id": "fuvest-2025-81",
-  "validado": false,
+  "validado": true,
   "vestibular": "FUVEST",
   "ano": 2025,
   "questao_tipo": "multipla_escolha",
@@ -8,8 +8,8 @@
   "imagem_1": null,
   "imagem_2": null,
   "disciplina": "História",
-  "temas": "Industrialização no Brasil; Desenvolvimento do Sudeste",
-  "texto_questao": "“O eixo econômico do país, que já havia se deslocado para a zona de mineração, caminhou mais uma vez, deslocando-se em direção às ondulações do planalto paulista, que foram se recobrindo pelo verde escuro dos cafezais. Enquanto outras regiões brasileiras vegetavam ou iniciavam mesmo um processo de decadência econômica, a Província, logo depois estado de São Paulo, apresentava uma ascensão esplêndida e vigorosa.” \n PETRONE, Pasquale. As indústrias paulistanas e os fatores de sua expansão. Terra Livre. 1953, p. 27 (Adaptado). \n Sobre a industrialização no território brasileiro, é correto afirmar:",
+  "temas": "Industrialização no Brasil; Desenvolvimento econômico; São Paulo",
+  "texto_questao": "<blockquote>“O eixo econômico do país, que já havia se deslocado para a zona de mineração, caminhou mais uma vez, deslocando-se em direção às ondulações do planalto paulista, que foram se recobrindo pelo verde escuro dos cafezais. Enquanto outras regiões brasileiras vegetavam ou iniciavam mesmo um processo de decadência econômica, a Província, logo depois estado de São Paulo, apresentava uma ascensão esplêndida e vigorosa.”</blockquote> <cite>PETRONE, Pasquale. As indústrias paulistanas e os fatores de sua expansão. Terra Livre. 1953, p. 27 (Adaptado).</cite> Sobre a industrialização no território brasileiro, é correto afirmar:",
   "alternativa_a": "Tal como São Paulo, a Zona Franca de Manaus teve a expansão de suas indústrias dada pelo potencial do mercado consumidor local dos produtos resultantes da industrialização.",
   "alternativa_b": "O Nordeste teve sua expansão industrial durante o Estado Novo, em razão da alta concentração de capitais dos estados da região, permitindo conexões dos seus polos industriais já consolidados.",
   "alternativa_c": "O boom industrial que aconteceu na região Sul, a partir da década de 1980, foi similar ao desenvolvimento ocorrido no Sudeste, onde a mão de obra especializada aumentou a produção.",
