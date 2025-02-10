@@ -1,6 +1,6 @@
 {
   "id": "fuvest-2025-29",
-  "validado": false,
+  "validado": true,
   "vestibular": "FUVEST",
   "ano": 2025,
   "questao_tipo": "multipla_escolha",
@@ -8,7 +8,7 @@
   "imagem_1": null,
   "imagem_2": null,
   "disciplina": "Biologia",
-  "temas": "Teoria Sintética da Evolução; Adaptação das espécies",
+  "temas": "Evolução das espécies; Teoria Sintética da Evolução",
   "texto_questao": "Considerando os seres vivos atuais, as informações trazidas pelo texto e os princípios da Teoria Sintética da Evolução, é correto afirmar que",
   "alternativa_a": "as espécies necessariamente se adaptarão às novas mudanças do planeta.",
   "alternativa_b": "somente espécies de dias longos, ou seja, aquelas que precisam de mais horas de luz, sobreviverão às mudanças previstas.",
