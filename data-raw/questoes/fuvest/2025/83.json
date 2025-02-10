@@ -1,6 +1,6 @@
 {
   "id": "fuvest-2025-83",
-  "validado": false,
+  "validado": true,
   "vestibular": "FUVEST",
   "ano": 2025,
   "questao_tipo": "multipla_escolha",
@@ -8,8 +8,8 @@
   "imagem_1": null,
   "imagem_2": null,
   "disciplina": "Literatura",
-  "temas": "Os ratos - Dyonélio Machado; Literatura Brasileira; Modernismo; Modernismo - Segunda fase",
-  "texto_questao": "O funcionário público como personagem literário ganha destaque na literatura brasileira a partir dos anos 1930. Uma explicação para esse fenômeno está na tematização, por parte dos escritores, das mudanças do papel do Estado brasileiro na constituição do mercado de trabalho assalariado e como agente da modernização do país: “De 1930 em diante, foram criadas dezenas de comissões, instituições e órgãos de planejamento e/ou de promoção das atividades econômicas, notadamente as ligadas às atividades agrícolas e àquelas voltadas para a industrialização.” MATTOS, Fernando Augusto Mansor de. A trajetória do emprego público no Brasil desde o início do século XX. Ensaios FEE, v.36, n.1, p.95, jun.2015.\nNo romance Os ratos, de Dyonélio Machado, o funcionalismo público configura-se como",
+  "temas": "Os ratos - Dyonélio Machado",
+  "texto_questao": "O funcionário público como personagem literário ganha destaque na literatura brasileira a partir dos anos 1930. Uma explicação para esse fenômeno está na tematização, por parte dos escritores, das mudanças do papel do Estado brasileiro na constituição do mercado de trabalho assalariado e como agente da modernização do país:\n<blockquote>“De 1930 em diante, foram criadas dezenas de comissões, instituições e órgãos de planejamento e/ou de promoção das atividades econômicas, notadamente as ligadas às atividades agrícolas e àquelas voltadas para a industrialização.”</blockquote> <cite>MATTOS, Fernando Augusto Mansor de. A trajetória do emprego público no Brasil desde o início do século XX. Ensaios FEE, v.36, n.1, p.95, jun.2015.</cite> No romance Os ratos, de Dyonélio Machado, o funcionalismo público configura-se como",
   "alternativa_a": "solução final para o conflito básico da narrativa, uma vez que é a partir de seu emprego público que o protagonista do romance obtém recursos para superar as limitações financeiras que, inicialmente, impulsionam sua perambulação pela cidade.",
   "alternativa_b": "principal opção de sobrevivência para os homens livres da sociedade brasileira recém-saída da escravidão, em especial para os personagens negros, a quem era impossível, de outro modo, alçar posições nos estratos sociais mais elevados.",
   "alternativa_c": "retrato da constituição de uma cultura organizacional ligada ao Estado, cuja dinâmica conduz, ao longo do século XX, ao desenvolvimento econômico do país e à vertiginosa ascensão social das classes médias, apontada pelo desfecho positivo do romance.",

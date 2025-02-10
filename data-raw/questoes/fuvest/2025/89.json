@@ -1,6 +1,6 @@
 {
   "id": "fuvest-2025-89",
-  "validado": false,
+  "validado": true,
   "vestibular": "FUVEST",
   "ano": 2025,
   "questao_tipo": "multipla_escolha",
@@ -9,7 +9,7 @@
   "imagem_2": null,
   "disciplina": "Literatura",
   "temas": "Um retrato sem moldura - Mia Couto",
-  "texto_questao": "“Aconteceu num debate, num país europeu. Da assistência alguém me lançou a seguinte pergunta: - Para si, o que é ser africano? Falava-se, inevitavelmente, de identidade versus globalização. Respondi com uma pergunta: - E para si, o que é ser europeu? O homem gaguejou. Não sabia responder. Mas o interessante é que, para ele, a questão da identidade se colocava naturalmente para os africanos. Não para os europeus. Ele nunca tinha colocado a questão no espelho.\n\nRecordo o episódio porque me parece que ele toca uma questão central: quando se fala de África, de qual África estamos falando? Terá o continente africano uma essência facilmente capturável? Haverá uma substância exótica que os caçadores de identidades possam recolher como sendo a alma africana?” \n COUTO, Mia. “Um retrato sem moldura”. In: HERNANDEZ, Leila Leite. A África na sala de aula: visita à história contemporânea. São Paulo: Selo Negro, 2008. p.11. \n Ao relatar e comentar o episódio, o escritor moçambicano Mia Couto apresenta a África como",
+  "texto_questao": "<blockquote>“Aconteceu num debate, num país europeu. Da assistência alguém me lançou a seguinte pergunta: \n - Para si, o que é ser africano?\n Falava-se, inevitavelmente, de identidade versus globalização. Respondi com uma pergunta: \n - E para si, o que é ser europeu? \n O homem gaguejou. Não sabia responder. Mas o interessante é que, para ele, a questão da identidade se colocava naturalmente para os africanos. Não para os europeus. Ele nunca tinha colocado a questão no espelho. \n\n Recordo o episódio porque me parece que ele toca uma questão central: quando se fala de África, de qual África estamos falando? Terá o continente africano uma essência facilmente capturável? Haverá uma substância exótica que os caçadores de identidades possam recolher como sendo a alma africana?”</blockquote> <cite>COUTO, Mia. “Um retrato sem moldura”. In: HERNANDEZ, Leila Leite. A África na sala de aula: visita à história contemporânea. São Paulo: Selo Negro, 2008. p.11.</cite> Ao relatar e comentar o episódio, o escritor moçambicano Mia Couto apresenta a África como",
   "alternativa_a": "uma construção histórica proporcionada pela ação humanitária dos colonizadores europeus.",
   "alternativa_b": "um resultado natural da luta dos povos do continente contra a dominação estrangeira.",
   "alternativa_c": "uma região historicamente afetada por graves problemas demográficos e sanitários.",
