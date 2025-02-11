@@ -5,8 +5,15 @@
   "ano": 2025,
   "questao_tipo": "multipla_escolha",
   "questao_numero": 34,
-  "disciplina": "Literatura",
-  "temas": "Os ratos - Dyonélio Machado; Literatura Brasileira; Modernismo; Modernismo - Segunda fase",
+  "temas": {
+    "literatura": "Literatura Brasileira; Modernismo"
+  },
+  "obras_literarias": [
+    {
+      "titulo": "Os ratos",
+      "autoria": "Dyonélio Machado"
+    }
+  ],
   "imagem_1": null,
   "imagem_2": null,
   "texto_questao": "<blockquote>“São os ratos!... Vai escutar com atenção, a respiração meio parada. Hão de ser muitos: há várias fontes daquele guinchinho, e de quando em quando, no forro, em vários pontos, o rufar... A casa está cheia de ratos...”</blockquote><cite>Dyonélio Machado. Os ratos.</cite> A obra Os ratos (1935), de Dyonélio Machado, narra o dia em que Naziazeno saiu pela cidade de Porto Alegre no intuito de conseguir dinheiro para pagar a conta do leiteiro. Os animais que dão título à narrativa apenas aparecem em seus últimos capítulos e ocupam o tempo reservado para o descanso do protagonista. É possível, então, afirmar:",

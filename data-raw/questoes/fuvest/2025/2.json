@@ -7,8 +7,9 @@
   "questao_numero": 2,
   "imagem_1": "2.png",
   "imagem_2": null,
-  "disciplina": "Geografia",
-  "temas": "Garimpo ilegal; Terras indígenas; Amazônia",
+  "temas": {
+    "geografia": "Garimpo ilegal; Terras indígenas; Amazônia"
+  },
   "texto_questao": "Analise, na figura a seguir, os dados referentes a áreas de garimpo ilegal localizadas em terras indígenas na Amazônia brasileira e sua distância em relação a corpos d’água. {imagem_1} <cite>MapBiomas. 2024. Proximidade de Garimpos, Rios e Lagos na Amazônia (Adaptado).</cite> A partir dos dados apresentados e da realidade socioambiental da Amazônia, é correto afirmar:",
   "alternativa_a": "Os territórios indígenas encontram-se nas áreas mais desmatadas da Amazônia; como o garimpo ilegal produz forte impacto ambiental pelo intenso uso da água em seus processos, tal atividade colabora com a desertificação do bioma.",
   "alternativa_b": "O garimpo ilegal representa alto risco a populações humanas e animais em geral, pela contaminação das águas e dos alimentos por substâncias usadas na garimpagem e porque tal atividade ocorre em áreas ainda muito preservadas, aumentando o impacto ambiental.",

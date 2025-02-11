@@ -7,8 +7,15 @@
   "questao_numero": 43,
   "imagem_1": null,
   "imagem_2": null,
-  "disciplina": "Literatura",
-  "temas": "Alguma poesia - Carlos Drummond de Andrade; Literatura Brasileira; Poesia; Modernismo; Modernismo - Primeira fase",
+  "temas": {
+    "literatura": "Literatura Brasileira; Poemas; Modernismo"
+  },
+    "obras_literarias": [
+    {
+      "titulo": "Alguma poesia",
+      "autoria": "Carlos Drummond de Andrade"
+    }
+  ],
   "texto_questao": "Carlos Drummond de Andrade foi o criador de uma obra lírica que, ao mesmo tempo, se aproxima e se afasta do Modernismo de 1922, propondo, a partir de traços desse movimento, uma poética original. Com base no exposto, em Alguma poesia (1930),",
   "alternativa_a": "os aspectos prosaicos da linguagem modernista ganham expressão lírica a partir de um sujeito poético que repropõe, em versos livres, a nostalgia romântica da infância idealizada.",
   "alternativa_b": "o sujeito poético incorpora, sob a perspectiva de uma lírica de raiz subjetiva, vários procedimentos estilísticos das vanguardas modernistas, em especial a escrita automática e o surrealismo.",
