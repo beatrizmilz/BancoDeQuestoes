@@ -16,6 +16,7 @@ lista_json <- purrr::map(questoes_json, jsonlite::fromJSON)
 questoes_preparadas <- lista_json |>
   purrr::map(purrr::compact) |>
   purrr::map(tibble::as_tibble) |>
+  purrr::map(~dplyr::mutate(.x, temas = as.list(temas))) |>
   purrr::list_rbind() |>
   dplyr::mutate(
     url_github_base = glue::glue(
@@ -26,12 +27,18 @@ questoes_preparadas <- lista_json |>
     )
   )
 
+
+
 usethis::use_data(questoes_preparadas, overwrite = TRUE)
 
 # Filtrando as questões validadas
 questoes_multipla_escolha <- questoes_preparadas |>
   dplyr::filter(validado == TRUE, !is.na(alternativa_correta)) |>
-  dplyr::select(-c(validado, vestibular, ano, url_github_base))
+  dplyr::select(-c(validado, vestibular, ano, url_github_base)) |>
+  dplyr::filter(is.na(disciplina)) |>
+  dplyr::mutate(disciplina = names(temas),
+                temas = unlist(temas)) |>
+  tidyr::unnest(obras_literarias, names_sep =  "_")
 
 # Criando base de provas
 provas <- questoes_preparadas |>
@@ -40,6 +47,10 @@ provas <- questoes_preparadas |>
     url_pdf_prova = glue::glue("{url_github_base}/prova.pdf"),
     url_pdf_gabarito = glue::glue("{url_github_base}/gabarito.pdf"
   ))
+
+
+usethis::use_data(provas, overwrite = TRUE)
+usethis::use_data(questoes_multipla_escolha, overwrite = TRUE)
 
 # Salvar -------------------------
 
@@ -54,8 +65,6 @@ DBI::dbWriteTable(con, "provas", provas, overwrite = TRUE)
 DBI::dbDisconnect(con)
 
 
-usethis::use_data(provas, overwrite = TRUE)
-usethis::use_data(questoes_multipla_escolha, overwrite = TRUE)
 
 # Questões não validadas -------------------------
 # Filtrando as questões não validadas

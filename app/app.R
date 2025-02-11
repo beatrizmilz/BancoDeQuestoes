@@ -41,12 +41,20 @@ questoes <- questoes_multipla_escolha |>
 dplyr::left_join(provas)
 
 
-disciplinas_questoes <- questoes_multipla_escolha |>
-  tidyr::separate_longer_delim(disciplina, delim = ";") |>
-  dplyr::mutate(disciplina = stringr::str_squish(disciplina)) |>
-  dplyr::distinct(disciplina) |>
-  dplyr::arrange(disciplina)
 
+
+disciplinas_temas <- questoes |>
+  dplyr::select(disciplina, temas) |>
+  tidyr::unnest(cols = c(temas)) |>
+  tidyr::separate_longer_delim(temas, "; ") |>
+  dplyr::mutate(
+    temas = stringr::str_trim(temas)
+  ) |>
+  dplyr::distinct(disciplina, temas) |>
+  dplyr::filter(temas != "") |>
+  tidyr::drop_na(temas)
+
+disciplinas_questoes <- sort(unique(disciplinas_temas$disciplina))
 
 # Define UI for application that draws a histogram
 ui <- bslib::page_navbar(
@@ -87,7 +95,14 @@ ui <- bslib::page_navbar(
               label = "Disciplina",
               choices = disciplinas_questoes,
               selected = disciplinas_questoes[1]
-            )#,
+            ),
+            shinyWidgets::pickerInput(
+              input = "temas",
+              label = "Temas",
+              choices = disciplinas_temas$temas,
+              selected = disciplinas_temas$temas
+            ),
+        #,
             # shiny::sliderInput(
             #   inputId = "quantidade_questoes",
             #   label = "Quantidade de questões",
@@ -136,14 +151,34 @@ bslib::layout_columns(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
 
+  temas_filtrados_por_disciplina <- reactive({
+    disciplinas_temas |>
+      dplyr::filter(disciplina %in% input$disciplina) |>
+      dplyr::arrange(temas)
+  })
+
+    observe({
+      shinyWidgets::updatePickerInput(
+        inputId = "temas",
+        choices = unique(temas_filtrados_por_disciplina()$temas),
+        selected = unique(temas_filtrados_por_disciplina()$temas)
+      )
+    }) |>
+      bindEvent(temas_filtrados_por_disciplina(), ignoreNULL = FALSE)
+
   dados <- reactive({
     questoes |>
       dplyr::filter(stringr::str_detect(disciplina, input$disciplina)) |>
+      dplyr::filter(stringr::str_detect(temas, input$temas)) |>
       dplyr::filter(vestibular %in% input$prova_vestibular) |>
       # dplyr::filter(questao_tipo == input$tipo_questao) |>
       # dplyr::slice_sample(n = input$quantidade_questoes) |>
+      dplyr::distinct(id, .keep_all = TRUE) |>
       dplyr::mutate(numero_questao = dplyr::row_number())
+
   })
+
+
 
 
   output$texto_questoes <- shiny::renderText({
