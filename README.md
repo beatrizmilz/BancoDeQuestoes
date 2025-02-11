@@ -17,23 +17,22 @@ Você também pode consultar os sites oficiais dos vestibulares para acessar as 
 
 ### Provas para ingresso no ensino superior
 
-- [ENEM](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos)
+- Brasil:
+  - [ENEM](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos)
 
-- [FATEC](https://www.cps.sp.gov.br/fatec/vestibular/)
-
-- [FUVEST - Vestibular USP](https://acervo.fuvest.br/?t=vestibular)
-
-- [ITA](https://vestibular.ita.br/provas.htm)
-
-- [UNESP](https://vestibular.unesp.br/)
-
-- [UNICAMP](https://www.comvest.unicamp.br/vestibulares-anteriores/)
-
-- [UNIVESP](https://univesp.br/vestibular)
+- Estado de São Paulo:
+  - [FATEC](https://www.cps.sp.gov.br/fatec/vestibular/)
+  - [FUVEST - Vestibular USP](https://acervo.fuvest.br/?t=vestibular)
+  - [ITA](https://vestibular.ita.br/provas.htm)
+  - [Provão Paulista](https://provaopaulistaseriado.vunesp.com.br/) - para estudantes do Ensino Médio matriculados em escolas públicas
+  - [UNESP](https://vestibular.unesp.br/)
+  - [UNICAMP](https://www.comvest.unicamp.br/vestibulares-anteriores/)
+  - [UNIVESP](https://univesp.br/vestibular)
 
 ### Vestibulinhos
 
-- [ETEC](https://www.vestibulinhoetec.com.br/provas-gabaritos/)
+- Estado de São Paulo:
+  - [ETEC](https://www.vestibulinhoetec.com.br/provas-gabaritos/)
 
 
 ## Etapas de extração
