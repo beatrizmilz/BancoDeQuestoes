@@ -5,8 +5,9 @@
   "ano": 2025,
   "questao_tipo": "multipla_escolha",
   "questao_numero": 18,
-  "disciplina": "Física",
-  "temas": "Colisões; Dinâmica; Força",
+  "temas": {
+    "fisica": "Força"
+  },
   "imagem_1": "18.png",
   "texto_questao": "No dia 26 de março de 2024, à 1h29min, aproximadamente, o navio cargueiro MV Dali colidiu com a ponte Francis Scott Key em Baltimore, EUA. O impacto causou o colapso da ponte, tornando-se um dos maiores acidentes marítimos da história norte-americana. A figura a seguir mostra os dados da velocidade do navio em função da hora local. A colisão ocorreu no intervalo de 38 segundos, marcado por linhas pontilhadas no gráfico. {imagem_1} <cite>Disponível em https://www.nytimes.com/ (Adaptado).</cite> \n Assumindo que a massa do navio no momento do impacto seja de 100 mil toneladas e, tendo por base os dados do gráfico, a magnitude da força média atuando sobre o navio durante a colisão é de, aproximadamente: \n Note e adote: \n Considere que a força atuando sobre o navio durante a colisão seja constante e igual à força média. \n Utilize 1 m.p.h. = 0,5 m/s.",
   "alternativa_a": "7 x 10^-2 N.",

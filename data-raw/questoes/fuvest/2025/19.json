@@ -5,8 +5,9 @@
   "ano": 2025,
   "questao_tipo": "multipla_escolha",
   "questao_numero": 19,
-  "disciplina": "Física",
-  "temas": "Efeitos da radiação; Interação da radiação com partículas",
+  "temas": {
+    "fisica": "Eletromagnetismo"
+  },
   "imagem_1": "19.png",
   "texto_questao": "O efeito Compton, descoberto na década de 1920, é hoje amplamente utilizado durante tratamentos radioterápicos. O efeito relaciona-se à mudança no comprimento de onda de fótons de raios X quando interagem com partículas como elétrons ou prótons, conforme ilustrado na figura a seguir. {imagem_1} Quando um fóton com comprimento de onda 𝜆0 incide sobre uma partícula, ele emerge dessa interação formando um ângulo 𝜃 com sua direção inicial de movimento, e seu novo comprimento de onda 𝜆′ é dado pela relação 𝜆′ = 𝜆0 + (𝛼/𝑚)(1 - cos 𝜃), em que 𝛼 é uma constante positiva e 𝑚 é a massa da partícula. Com base nessas informações e em seus conhecimentos sobre a propagação das ondas eletromagnéticas, assinale a alternativa correta.",
   "alternativa_a": "A maior variação no comprimento de onda do fóton ocorre quando o ângulo 𝜃 é igual a 90°.",

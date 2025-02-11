@@ -5,8 +5,9 @@
   "ano": 2025,
   "questao_tipo": "multipla_escolha",
   "questao_numero": 20,
-  "disciplina": "Química",
-  "temas": "Modelos Atômicos",
+  "temas": {
+    "quimica": "Modelos Atômicos"
+  },
   "imagem_1": "20.png",
   "texto_questao": "A figura a seguir apresenta a evolução dos modelos atômicos, desde o primeiro, proposto por Dalton em 1803, até o de Bohr, proposto em 1913. {imagem_1} Sobre os quatro modelos atômicos apresentados, é correto afirmar:",
   "alternativa_a": "Todos os modelos previram a presença de cargas positivas no núcleo atômico.",

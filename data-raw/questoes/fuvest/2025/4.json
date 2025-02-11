@@ -5,8 +5,9 @@
   "ano": 2025,
   "questao_tipo": "multipla_escolha",
   "questao_numero": 4,
-  "disciplina": "História",
-  "temas": "Formação do território brasileiro; Colonização e expansão territorial; Interações entre culturas indígenas e colonizadores europeus",
+  "temas": {
+    "historia": "Colonização"
+  },
   "imagem_1": null,
   "imagem_2": null,
   "texto_questao": "<blockquote>“E assim como o branco e os mamelucos se aproveitaram não raro das veredas dos índios, há motivo para pensar que estes, por sua vez, foram, em muitos casos, simples sucessores dos animais selvagens, do tapir especialmente, cujos carreiros ao longo dos rios e riachos, ou em direção a nascentes de águas, se adaptavam perfeitamente às necessidades e hábitos daquelas populações.”</blockquote> <cite>HOLANDA, Sergio Buarque de Caminhos e fronteiras. Rio de Janeiro: José Olympio, 1975. p.35.</cite> De acordo com o excerto, a ocupação territorial da América portuguesa pelos colonizadores foi inicialmente marcada",

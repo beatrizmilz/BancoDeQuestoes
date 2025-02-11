@@ -7,8 +7,9 @@
   "questao_numero": 3,
   "imagem_1": "3.png",
   "imagem_2": null,
-  "disciplina": "Língua Portuguesa",
-  "temas": "charge",
+  "temas": {
+    "lingua_portuguesa": "Interpretação de texto"
+  },
   "texto_questao": "{imagem_1} <cite>Jean Galvão. Disponível em https://cartum.folha.uol.com.br/.</cite> Considerando a charge, é correto afirmar:",
   "alternativa_a": "Há uma incoerência entre a imagem do segundo quadro e o enunciado verbal do primeiro quadro, uma vez que a posposição do adjunto adverbial “na água” anula qualquer ambiguidade.",
   "alternativa_b": "Ao antecipar o objeto direto “o mercúrio” para o começo da oração, o chargista chama a atenção para esse elemento, estimulando o leitor a buscá-lo visualmente no segundo quadro.",
