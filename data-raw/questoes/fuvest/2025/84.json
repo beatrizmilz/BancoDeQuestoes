@@ -7,8 +7,20 @@
   "questao_numero": 84,
   "imagem_1": null,
   "imagem_2": null,
-  "disciplina": "Literatura",
-  "temas": "Marília de Dirceu - Tomás Antônio Gonzaga; Romanceiro da Inconfidência - Cecília Meireles; Inconfidência Mineira",
+  "temas": {
+    "literatura": "Literatura Brasileira; Literatura Portuguesa; Arcadismo; Poemas",
+    "historia": "Inconfidência Mineira"
+  },
+  "obras_literarias": [
+    {
+      "titulo": "Marília de Dirceu",
+      "autoria": "Tomás Antônio Gonzaga"
+    },
+    {
+      "titulo": "Romanceiro da Inconfidência",
+      "autoria": "Cecília Meireles"
+    }
+  ],
   "texto_questao": "Leia os trechos das obras Marília de Dirceu e Romanceiro da Inconfidência: <blockquote>Lira VII (Parte II) \n “Meu prezado Glauceste,\n Se fazes o conceito\n Que, bem que réu, abrigo\n A cândida Virtude no meu peito;\n Se julgas, digo, que mereço ainda\n Da tua mão socorro;\n Ah! Vem dar-mo agora,\n Agora, sim, que morro!\n Não quero que, montado\n No <u>Pégaso</u> fogoso,\n Venhas com dura lança\n Ao monstro infame traspassar, raivoso.\n Deixa que viva a pérfida calúnia,\n e forje o meu tormento:\n Com menos, meu Glauceste,\n Com menos me contento.”</blockquote> <cite>Tomás Antônio Gonzaga. Marília de Dirceu.</cite> <blockquote>Romance LXVI ou De Outros Maldizentes\n “- Que fica, na fortaleza,\n daquele poeta Gonzaga?\n - Um par de esporas, somente.\n Um par de esporas de prata.\n (...)\n Dizem que tinha um cavalo\n que <u>Pégaso</u> se chamava.\n Não pisava neste mundo,\n mas nos planaltos da Arcádia!”</blockquote> <cite>Cecília Meireles. Romanceiro da Inconfidência.</cite> Considerando o substantivo <u>Pégaso</u>, presente nos dois excertos, é correto afirmar:",
   "alternativa_a": "No poema de Cecília Meireles, a referência tem por objetivo destacar o animal mítico, enquanto na lira de Gonzaga o substantivo se refere a um animal real.",
   "alternativa_b": "No poema de Gonzaga, a referência ao animal mitológico serve para aludir às características heroicas de Glauceste, enquanto, no poema de Cecília Meireles, Pégaso alude à criação poética.",

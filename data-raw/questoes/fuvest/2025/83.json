@@ -7,8 +7,15 @@
   "questao_numero": 83,
   "imagem_1": null,
   "imagem_2": null,
-  "disciplina": "Literatura",
-  "temas": "Os ratos - Dyonélio Machado",
+  "temas": {
+    "literatura": "Literatura Brasileira; Modernismo"
+  },
+  "obras_literarias": [
+    {
+      "titulo": "Os ratos",
+      "autoria": "Dyonélio Machado"
+    }
+  ],
   "texto_questao": "O funcionário público como personagem literário ganha destaque na literatura brasileira a partir dos anos 1930. Uma explicação para esse fenômeno está na tematização, por parte dos escritores, das mudanças do papel do Estado brasileiro na constituição do mercado de trabalho assalariado e como agente da modernização do país:\n<blockquote>“De 1930 em diante, foram criadas dezenas de comissões, instituições e órgãos de planejamento e/ou de promoção das atividades econômicas, notadamente as ligadas às atividades agrícolas e àquelas voltadas para a industrialização.”</blockquote> <cite>MATTOS, Fernando Augusto Mansor de. A trajetória do emprego público no Brasil desde o início do século XX. Ensaios FEE, v.36, n.1, p.95, jun.2015.</cite> No romance Os ratos, de Dyonélio Machado, o funcionalismo público configura-se como",
   "alternativa_a": "solução final para o conflito básico da narrativa, uma vez que é a partir de seu emprego público que o protagonista do romance obtém recursos para superar as limitações financeiras que, inicialmente, impulsionam sua perambulação pela cidade.",
   "alternativa_b": "principal opção de sobrevivência para os homens livres da sociedade brasileira recém-saída da escravidão, em especial para os personagens negros, a quem era impossível, de outro modo, alçar posições nos estratos sociais mais elevados.",

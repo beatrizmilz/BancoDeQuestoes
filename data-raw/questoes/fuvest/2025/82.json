@@ -7,8 +7,19 @@
   "questao_numero": 82,
   "imagem_1": null,
   "imagem_2": null,
-  "disciplina": "Literatura",
-  "temas": "Quincas Borba - Machado de Assis; A Ilustre Casa de Ramires - Eça de Queirós; Realismo",
+  "temas": {
+    "literatura":  "Literatura Brasileira; Literatura Portuguesa; Realismo" },
+      "obras_literarias": [
+    {
+      "titulo": "Quincas Borba",
+      "autoria": "Machado de Assis"
+    },
+        {
+      "titulo": "A Ilustre Casa de Ramires",
+      "autoria": "Eça de Queirós"
+    }
+  ],
+
   "texto_questao": "Mais de uma vez, o brasileiro Machado de Assis e o português Eça de Queirós foram aproximados porque traçaram linhas de compreensão das suas respectivas sociedades, em um mesmo tempo historicamente situado. Os protagonistas Rubião, de Quincas Borba (1891), e Gonçalo, de A Ilustre Casa de Ramires (1900),",
   "alternativa_a": "representam, respectivamente, a ascensão política da burguesia brasileira durante a segunda metade do século XIX e a decadência da aristocracia portuguesa no mesmo período.",
   "alternativa_b": "têm suas aspirações de grandeza e reconhecimento social frustradas diretamente pelo envolvimento de ambos com as políticas partidárias nacionais, introduzindo reformas substanciais que alteram a situação periférica de cada país.",
