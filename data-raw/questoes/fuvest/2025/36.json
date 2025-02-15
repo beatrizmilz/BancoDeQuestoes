@@ -5,11 +5,7 @@
   "ano": 2025,
   "questao_tipo": "multipla_escolha",
   "questao_numero": 36,
-  "imagem_1": null,
-  "imagem_2": null,
-  "temas": {
-    "literatura": "Literatura Moçambicana"
-    },
+  "codigo_tema": "lit_mz;lit_conto",
   "obras_literarias": [
     {
       "titulo": "Nós matamos o cão tinhoso!",

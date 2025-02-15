@@ -7,10 +7,7 @@
   "questao_numero": 85,
   "imagem_1": null,
   "imagem_2": null,
-  "temas": {
-    "historia": "Inconfidência Mineira",
-    "literatura": "Poemas"
-    },
+  "codigo_tema": "lit_br;lit_poema;lit_modernismo;hist_inconfidenciamineira",
   "obras_literarias": [
     {
       "titulo": "Romanceiro da Inconfidência",

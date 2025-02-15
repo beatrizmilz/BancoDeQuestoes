@@ -7,10 +7,7 @@
   "questao_numero": 35,
   "imagem_1": null,
   "imagem_2": null,
-  "temas": {
-    "literatura": "Literatura Brasileira; Modernismo",
-    "biologia": "Sistema nervoso"
-    },
+  "codigo_tema": "lit_br;lit_modernismo;lit_romance;bio_sistnervoso",
   "obras_literarias": [
     {
       "titulo": "Os ratos",

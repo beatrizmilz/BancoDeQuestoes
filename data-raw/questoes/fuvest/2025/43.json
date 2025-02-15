@@ -7,9 +7,7 @@
   "questao_numero": 43,
   "imagem_1": null,
   "imagem_2": null,
-  "temas": {
-    "literatura": "Literatura Brasileira; Poemas; Modernismo"
-  },
+  "codigo_tema": "lit_br;lit_poema;lit_modernismo",
     "obras_literarias": [
     {
       "titulo": "Alguma poesia",

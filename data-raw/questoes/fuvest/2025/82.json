@@ -5,11 +5,8 @@
   "ano": 2025,
   "questao_tipo": "multipla_escolha",
   "questao_numero": 82,
-  "imagem_1": null,
-  "imagem_2": null,
-  "temas": {
-    "literatura":  "Literatura Brasileira; Literatura Portuguesa; Realismo" },
-      "obras_literarias": [
+  "codigo_tema": "lit_br;lit_pt;lit_realismo;lit_comparacao;lit_romance",
+  "obras_literarias": [
     {
       "titulo": "Quincas Borba",
       "autoria": "Machado de Assis"

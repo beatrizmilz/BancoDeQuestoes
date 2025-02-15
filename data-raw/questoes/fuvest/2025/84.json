@@ -7,10 +7,7 @@
   "questao_numero": 84,
   "imagem_1": null,
   "imagem_2": null,
-  "temas": {
-    "literatura": "Literatura Brasileira; Literatura Portuguesa; Arcadismo; Poemas",
-    "historia": "Inconfidência Mineira"
-  },
+  "codigo_tema": "lit_comparacao;lit_br;lit_pt;lit_arcadismo;lit_poema;hist_inconfidenciamineira;lit_modernismo",
   "obras_literarias": [
     {
       "titulo": "Marília de Dirceu",

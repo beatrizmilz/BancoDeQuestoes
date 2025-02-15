@@ -7,9 +7,7 @@
   "questao_numero": 83,
   "imagem_1": null,
   "imagem_2": null,
-  "temas": {
-    "literatura": "Literatura Brasileira; Modernismo"
-  },
+  "codigo_tema": "lit_br;lit_modernismo;lit_romance",
   "obras_literarias": [
     {
       "titulo": "Os ratos",
