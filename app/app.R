@@ -44,15 +44,14 @@ dplyr::left_join(provas)
 
 
 disciplinas_temas <- questoes |>
-  dplyr::select(disciplina, temas) |>
-  tidyr::unnest(cols = c(temas)) |>
-  tidyr::separate_longer_delim(temas, "; ") |>
+  dplyr::select(disciplina, tema) |>
   dplyr::mutate(
-    temas = stringr::str_trim(temas)
+    tema = stringr::str_trim(tema)
   ) |>
-  dplyr::distinct(disciplina, temas) |>
-  dplyr::filter(temas != "") |>
-  tidyr::drop_na(temas)
+  dplyr::distinct(disciplina, tema) |>
+  dplyr::filter(tema != "") |>
+  tidyr::drop_na(tema) |>
+  dplyr::arrange(disciplina, tema)
 
 disciplinas_questoes <- sort(unique(disciplinas_temas$disciplina))
 
@@ -75,7 +74,7 @@ ui <- bslib::page_navbar(
   ),
       title = "Banco de questões (em construção)",
 
-      sidebar = bslib::sidebar(
+      sidebar = bslib::sidebar(width = "25%",
      #   title = "Filtros",
         shinyWidgets::pickerInput(
           input = "prova_vestibular",
@@ -99,8 +98,8 @@ ui <- bslib::page_navbar(
             shinyWidgets::pickerInput(
               input = "temas",
               label = "Temas",
-              choices = disciplinas_temas$temas,
-              selected = disciplinas_temas$temas
+              choices = disciplinas_temas$tema,
+              selected = disciplinas_temas$tema
             ),
         #,
             # shiny::sliderInput(
@@ -154,14 +153,14 @@ server <- function(input, output) {
   temas_filtrados_por_disciplina <- reactive({
     disciplinas_temas |>
       dplyr::filter(disciplina %in% input$disciplina) |>
-      dplyr::arrange(temas)
+      dplyr::arrange(tema)
   })
 
     observe({
       shinyWidgets::updatePickerInput(
         inputId = "temas",
-        choices = unique(temas_filtrados_por_disciplina()$temas),
-        selected = unique(temas_filtrados_por_disciplina()$temas)
+        choices = unique(temas_filtrados_por_disciplina()$tema),
+        selected = unique(temas_filtrados_por_disciplina()$tema)
       )
     }) |>
       bindEvent(temas_filtrados_por_disciplina(), ignoreNULL = FALSE)
@@ -169,13 +168,12 @@ server <- function(input, output) {
   dados <- reactive({
     questoes |>
       dplyr::filter(stringr::str_detect(disciplina, input$disciplina)) |>
-      dplyr::filter(stringr::str_detect(temas, input$temas)) |>
+      dplyr::filter(stringr::str_detect(tema, input$temas)) |>
       dplyr::filter(vestibular %in% input$prova_vestibular) |>
       # dplyr::filter(questao_tipo == input$tipo_questao) |>
       # dplyr::slice_sample(n = input$quantidade_questoes) |>
       dplyr::distinct(id, .keep_all = TRUE) |>
       dplyr::mutate(numero_questao = dplyr::row_number())
-
   })
 
 
