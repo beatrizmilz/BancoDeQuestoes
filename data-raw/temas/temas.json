@@ -1,0 +1,113 @@
+{
+  "disciplina": {
+    "literatura": {
+      "temas": [
+        {
+          "codigo": "lit_br",
+          "tema": "Literatura Brasileira",
+          "descricao": "Obras escritas por autores e autoras do Brasil."
+        },
+        {
+          "codigo": "lit_mz",
+          "tema": "Literatura Moçambicana",
+          "descricao": "Obras escritas por autores e autoras de Moçambique."
+        },
+        {
+          "codigo": "lit_pt",
+          "tema": "Literatura Portuguesa",
+          "descricao": "Obras escritas por autores e autoras de Portugal."
+        },
+        {
+          "codigo": "lit_romance",
+          "tema": "Tipo de obra: Romance",
+          "descricao": "Obras narrativas longas, geralmente em prosa, que contam uma história com personagens e enredo detalhado."
+        },
+        {
+          "codigo": "lit_conto",
+          "tema": "Tipo de obra: Conto",
+          "descricao": "Narrativa curta que apresenta um enredo condensado, geralmente com poucos personagens e uma única linha de ação."
+        },
+        {
+          "codigo": "lit_poema",
+          "tema": "Tipo de obra: Poema",
+          "descricao": "Texto escrito em versos, podendo apresentar rima, métrica e outros elementos da linguagem poética."
+        },
+        {
+          "codigo": "lit_teatro",
+          "tema": "Tipo de obra: Teatro",
+          "descricao": "Obras escritas em forma de diálogos, destinadas a serem encenadas por atores."
+        },
+        {
+          "codigo": "lit_quinhentismo",
+          "tema": "Movimento literário: Quinhentismo",
+          "descricao": "Textos de caráter informativo e catequético do período colonial, voltados para a descrição da terra e evangelização."
+        },
+        {
+          "codigo": "lit_barroco",
+          "tema": "Movimento literário: Barroco",
+          "descricao": "Uso de contrastes, jogo de opostos e forte influência religiosa, marcando o conflito entre corpo e alma."
+        },
+        {
+          "codigo": "lit_arcadismo",
+          "tema": "Movimento literário: Arcadismo",
+          "descricao": "Valorização da natureza, ideal de simplicidade e fuga da cidade, com inspiração na cultura clássica."
+        },
+        {
+          "codigo": "lit_romantismo",
+          "tema": "Movimento literário: Romantismo",
+          "descricao": "Exaltação da pátria, do amor e do indígena como herói nacional, além do subjetivismo e idealização."
+        },
+        {
+          "codigo": "lit_realismo",
+          "tema": "Movimento literário: Realismo",
+          "descricao": "Crítica à sociedade e apresentação de personagens psicológicos e cotidianos, com foco na objetividade."
+        },
+        {
+          "codigo": "lit_naturalismo",
+          "tema": "Movimento literário: Naturalismo",
+          "descricao": "Vertente do realismo, com visão determinista do ser humano, retratando a influência do meio sobre os indivíduos."
+        },
+        {
+          "codigo": "lit_parnasianismo",
+          "tema": "Movimento literário: Parnasianismo",
+          "descricao": "Foco na estética, na 'arte pela arte', linguagem rebuscada e forte presença de sonetos."
+        },
+        {
+          "codigo": "lit_simbolismo",
+          "tema": "Movimento literário: Simbolismo",
+          "descricao": "Uso de sinestesias, subjetividade e espiritualismo, com uma linguagem mais sensorial e mística."
+        },
+        {
+          "codigo": "lit_premodernismo",
+          "tema": "Movimento literário: Pré-Modernismo",
+          "descricao": "Período de transição entre simbolismo e modernismo, com obras mais críticas e realistas, retratando problemas sociais."
+        },
+        {
+          "codigo": "lit_modernismo",
+          "tema": "Movimento literário: Modernismo",
+          "descricao": "Rompimento com a tradição, inovação estética, linguagem coloquial e valorização da identidade nacional."
+        },
+        {
+          "codigo": "lit_posmodernismo",
+          "tema": "Movimento literário: Pós-Modernismo",
+          "descricao": "Intertextualidade, ironia e questionamento das grandes narrativas, com mistura de estilos e referências."
+        },
+        {
+          "codigo": "lit_comparacao",
+          "tema": "Comparação entre obras",
+          "descricao": "Questões com comparação de obras literárias."
+        }
+      ]
+    },
+
+    "ingles": {
+      "temas": [
+        {
+          "codigo": "ing_interpretacao",
+          "tema": "Interpretação de texto",
+          "descricao": "Questões relacionadas à interpretação de textos em inglês."
+        }
+      ]
+  }
+}
+}
