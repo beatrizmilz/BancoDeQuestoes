@@ -12,11 +12,14 @@ questoes_json <- list.files(
 # Importar todos os arquivos json
 lista_json <- purrr::map(questoes_json, jsonlite::fromJSON)
 
+# Apenas colunas relevantes
+df_temas <- temas |>
+  dplyr::select(disciplina, codigo , tema)
+
 # Manipulação para deixar a base de questões pronta
 questoes_preparadas <- lista_json |>
   purrr::map(purrr::compact) |>
   purrr::map(tibble::as_tibble) |>
-  purrr::map(~dplyr::mutate(.x, temas = as.list(temas))) |>
   purrr::list_rbind() |>
   dplyr::mutate(
     url_github_base = glue::glue(
@@ -25,8 +28,9 @@ questoes_preparadas <- lista_json |>
     url_github = glue::glue(
       "{url_github_base}/{questao_numero}.json"
     )
-  )
-
+  ) |>
+  tidyr::separate_longer_delim(codigo_tema, ";") |>
+  dplyr::left_join(df_temas, by = c("codigo_tema" = "codigo"))
 
 
 usethis::use_data(questoes_preparadas, overwrite = TRUE)
@@ -35,9 +39,7 @@ usethis::use_data(questoes_preparadas, overwrite = TRUE)
 questoes_multipla_escolha <- questoes_preparadas |>
   dplyr::filter(validado == TRUE, !is.na(alternativa_correta)) |>
   dplyr::select(-c(validado, vestibular, ano, url_github_base)) |>
-  dplyr::filter(is.na(disciplina)) |>
-  dplyr::mutate(disciplina = names(temas),
-                temas = unlist(temas)) |>
+  dplyr::filter(!is.na(disciplina)) |>
   tidyr::unnest(obras_literarias, names_sep =  "_")
 
 # Criando base de provas
