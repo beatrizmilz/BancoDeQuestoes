@@ -20,6 +20,12 @@ Você também pode consultar os sites oficiais dos vestibulares para acessar as 
 - Brasil:
   - [ENEM](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos)
 
+- Estado do Rio de Janeiro:
+   - [UERJ](https://www.vestibular.uerj.br/)
+
+- Estado de Santa Catarina:
+  - [Vestibular unificado UFSC, IFSC, IFC](https://www.ifsc.edu.br/vestibularunificado)
+
 - Estado de São Paulo:
   - [FATEC](https://www.cps.sp.gov.br/fatec/vestibular/)
   - [FUVEST - Vestibular USP](https://acervo.fuvest.br/?t=vestibular)
@@ -28,6 +34,8 @@ Você também pode consultar os sites oficiais dos vestibulares para acessar as 
   - [UNESP](https://vestibular.unesp.br/)
   - [UNICAMP](https://www.comvest.unicamp.br/vestibulares-anteriores/)
   - [UNIVESP](https://univesp.br/vestibular)
+ 
+
 
 ### Vestibulinhos
 
